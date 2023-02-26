@@ -1,0 +1,36 @@
+.navbar {
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #026670 !important;
+  }
+
+.nav-link {
+    padding: 13px 40px 13px !important;
+    margin: 0px 15px 0px;
+}
+
+.navbar-text {
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    background-color: #FEF9C7;
+    color: #363636 !important;
+}
+
+.material-icons {
+    margin: auto;
+}
+
+.dropdown-menu {
+    background-color: #026670;
+}
+.dropdown-item:hover {
+    background-color: #FEF9C7;
+    color: black !important;
+}
+
+.dropdown-item {
+    color: #f8f9fa;
+}
