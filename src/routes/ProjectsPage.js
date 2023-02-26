@@ -61,9 +61,7 @@ const ProjectsPage = () => {
                 </div>
             </div>
             <div className="row justify-content-center p-5">
-                {/* <div className="col-md-12"> */}
                 {data && assembleProjects(data.projects.public)}
-                {/* </div> */}
             </div>
             <div className="row justify-content-center">
                 <div className="col-md-6">
@@ -72,9 +70,7 @@ const ProjectsPage = () => {
                 </div>
             </div>
             <div className="row justify-content-center p-5">
-                {/* <div className="col-md-12"> */}
                 {data && assembleProjects(data.projects.private)}
-                {/* </div> */}
             </div>
         </>
     );
