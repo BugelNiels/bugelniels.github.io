@@ -2,7 +2,6 @@
     height: 50px;
     margin: 0 auto;
     text-align: center;
-    background-color: #026670 !important;
   }
 
 .nav-link {
@@ -15,8 +14,7 @@
 }
 
 .nav-link:hover {
-    background-color: #FEF9C7;
-    color: #363636 !important;
+    background-color: gray;
 }
 
 .material-icons {

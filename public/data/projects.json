@@ -1,0 +1,106 @@
+{
+    "projects": {
+        "public": [
+            {
+                "title": "Distributed GPU Convolution",
+                "description": "A GPU implementation of generalized convolution operators. The framework is designed for large image data sets and can run in a distributed system.",
+                "tools": [
+                    "C",
+                    "CUDA",
+                    "MPI",
+                    "pthreads"
+                ],
+                "repository": "https://github.com/BugelNiels/distributed-gpu-convolution"
+            },
+            {
+                "title": "ImprocC",
+                "description": "A simple image-processing framework written in C.",
+                "tools": [
+                    "C"
+                ],
+                "repository": "https://github.com/BugelNiels/improcc"
+            },
+            {
+                "title": "CCheckmate",
+                "description": "ImprocC is a simple unit testing framework for C. The main benefit of this framework is its simplificity. It is easy to use, easy to read and does not require any libraries.",
+                "tools": [
+                    "C"
+                ],
+                "repository": "https://github.com/BugelNiels/ccheckmate"
+            },
+            {
+                "title": "Parallel GPU Catmull-Clark Subdivision",
+                "description": "This project is a CUDA implementation of the method described in the paper: A Halfedge Refinement Rule for Parallel Catmull-Clark Subdivision. It also has a number of optimizations to accelerate it even further.",
+                "tools": [
+                    "C",
+                    "CUDA"
+                ],
+                "repository": "https://github.com/BugelNiels/parallel-gpu-catmull-clark-subdivision"
+            },
+            {
+                "title": "Parallel CPU Catmull-Clark Subdivision",
+                "description": "This framework contains the parallel CPU implementation of the method described in the paper: A Halfedge Refinement Rule for Parallel Catmull-Clark Subdivision.",
+                "tools": [
+                    "C",
+                    "OpenMP",
+                    "OpenGL"
+                ],
+                "repository": "https://github.com/BugelNiels/parallel-cpu-catmull-clark-subdivision"
+            },
+            {
+                "title": "JColorDialog",
+                "description": "JColorDialog is meant as an improvement over the default JColorChooser. It provides a better looking interface for picking colors.",
+                "tools": [
+                    "Java"
+                ],
+                "repository": "https://github.com/BugelNiels/JColorDialog"
+            },
+            {
+                "title": "C-Apriori",
+                "description": "A fast C implementation of the Apriori algorithm.",
+                "tools": [
+                    "C"
+                ],
+                "repository": "https://github.com/BugelNiels/c-apriori"
+            },
+            {
+                "title": "Personal Website",
+                "description": "The website you are looking at right now :)",
+                "tools": [
+                    "REACT",
+                    "Javascript"
+                ],
+                "repository": "https://github.com/BugelNiels/bugelniels.github.io"
+            }
+        ],
+        "private": [
+            {
+                "title": "MATIG",
+                "description": "Designed, built, and maintained MATIG: a system that simplifies the organisation and improves the efficiency of the matching procedure for several studies at the Faculty of Science and Engineering.",
+                "tools": [
+                    "REACT",
+                    "Express",
+                    "MongoDB",
+                    "Redis",
+                    "Kubernetes"
+                ]
+            },
+            {
+                "title": "Themis Plagiarism Checker",
+                "description": "Worked on adding a plagiarism scanning and reporting feature to the online grading system Themis.",
+                "tools": [
+                    "NodeJS"
+                ]
+            },
+            {
+                "title": "Stock Market Simulation",
+                "description": "Fully designed and implemented a stock market simulation assignment from scratch for the course Advanced Object-Oriented Programming.\nThe simulation involved a message queue, multi-threading, communication over TCP, and a custom-built frontend written in REACT.",
+                "tools": [
+                    "Java",
+                    "TCP",
+                    "REACT"
+                ]
+            }
+        ]
+    }
+}
