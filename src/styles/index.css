@@ -1,4 +1,4 @@
-body {
+body, body * {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,72 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.cuda {
+    background-color: #76b900;
+}
+
+.c {
+    background-color: #A4B3C5;
+}
+
+.cpp {
+    background-color: #004C85;
+}
+
+.pthreads {
+    background-color: #B63E97;
+}
+
+.mpi {
+    background-color: #0056A8;
+}
+
+.openmp {
+    background-color: #096E77;
+}
+
+.opengl {
+    background-color: #517F9C;
+}
+
+.java {
+    background-color: #E11E23;
+}
+
+.javascript {
+    background-color: #E4D04B;
+}
+
+.react {
+    background-color: #00CDF2;
+}
+
+.nodejs {
+    background-color: #4F9640;
+}
+
+.express {
+    background-color: #7B7B7B;
+}
+
+.mongodb {
+    background-color: #118B4B;
+}
+
+.redis {
+    background-color: #BC2E29;
+}
+
+.kubernetes {
+    background-color: #2F66D9;
+}
+
+.qt {
+    background-color: #3EC34E;
+}
+
+.docker {
+    background-color: #228EE1;
 }

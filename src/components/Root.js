@@ -13,16 +13,16 @@ const Root = () => {
     return (
         <>
             <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
-                <Navbar.Brand as={Link} to="/">
-                {/* <img
-                    alt=""
-                    src="placeholder"
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-top"
-                />{' '} */}
-                Niels Bugel
-            </Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className="p-2">
+                    <img
+                        alt=""
+                        src="placeholder"
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top"
+                    />{' '}
+                    Niels Bugel
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="m-auto">
