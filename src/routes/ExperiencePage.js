@@ -33,7 +33,7 @@ const ExperiencePage = () => {
 
     return (
         <>
-            <div className="row justify-content-center p-5 secondary-comp">
+            <div className="row justify-content-center p-5 section-title">
                 <div className="col-6">
                     <h1>Work Experience</h1>
                 </div>
@@ -45,7 +45,6 @@ const ExperiencePage = () => {
                 <p>
                     Teaching Assistant for the following courses.
                 </p>
-
                 <ReadMoreText>
                     <p>
                         OOP is my baby
@@ -84,8 +83,11 @@ const ExperiencePage = () => {
                 <p>
                     Coordinator of the Numerus Fixus procedure for Computing Science. Also involved in streamlining
                     the Numerus Fixus process on a faculty level.
-                    Before this, this was called the matching process. TODO.
+
                 </p>
+                <ReadMoreText>
+                    Before this
+                </ReadMoreText>
             </Experience>
             <Experience time="Oct 2020 - Jul 2022"
                         title="Full Stack Web Developer MATIG"
@@ -97,6 +99,9 @@ const ExperiencePage = () => {
                     Engineering.
                     MATIG was built using MongoDB, Express, React, NodeJS, Redis, and Kubernetes.
                 </p>
+                <ReadMoreText>
+                    Before this
+                </ReadMoreText>
             </Experience>
             <Experience time="Apr 2021 - Oct 2021"
                         title="Web Developer Themis"

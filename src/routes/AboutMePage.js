@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const EducationPage = () => {
     return (
         <>
-            <div className="row justify-content-center p-5 secondary-comp">
+            <div className="row justify-content-center p-5 section-title">
                 <div className="col-6">
                     <h1>About me</h1>
                 </div>
@@ -13,7 +13,6 @@ const EducationPage = () => {
             <div className="row justify-content-center h-100 p-5">
 
                 <div className="col-6 text-start">
-                    <h5>Blender Fan</h5>
                     <p>
                         One particular field of Computing Science that I am very invested in is the field of Computer
                         Graphics. I have always had a fascination with VFX and realistic renders.
@@ -29,7 +28,7 @@ const EducationPage = () => {
                         If you are curious and don't want to miss out on new renders, then have a look at my Artstation
                         page.
                     </p>
-                    <Carousel>
+                    <Carousel className="p-5">
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
@@ -73,7 +72,7 @@ const EducationPage = () => {
                     <p>
                         Love to travel
                     </p>
-                    <Carousel>
+                    <Carousel className="p-5">
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"

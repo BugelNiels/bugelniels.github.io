@@ -8,7 +8,7 @@ import ReadMoreText from "../components/ReadMore";
 const EducationPage = () => {
     return (
         <>
-            <div className="row justify-content-center p-5 secondary-comp">
+            <div className="row justify-content-center p-5 section-title">
                 <div className="col-6">
                     <h1>Education</h1>
                 </div>
@@ -18,7 +18,7 @@ const EducationPage = () => {
                        name="Master Computing Science"
                        institution="University of groningen"
                        programmeLink="https://www.rug.nl/masters/computing-science/?lang=en"
-                       GPA="9.0/10.0">
+                       GPA="9.0/10.0 - Cum Laude">
                 <p>
                     <b>Track:</b> Data Science & Systems Complexity
                 </p>
@@ -56,7 +56,7 @@ const EducationPage = () => {
                        name="Bachelor Computing Science"
                        institution="University of groningen"
                        programmeLink="https://www.rug.nl/bachelors/computing-science/?lang=en"
-                       GPA="8.8/10.0">
+                       GPA="8.8/10.0 - Cum Laude">
 
             </Education>
         </>

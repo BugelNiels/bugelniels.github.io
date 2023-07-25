@@ -13,8 +13,12 @@ code {
 }
 
 .secondary-comp {
-    background-color: #f7f7f8;
+    background-color: #f0f0f0;
     /*border: 1px solid #d0d0d0;*/
+}
+
+.section-title {
+
 }
 
 .main-container {

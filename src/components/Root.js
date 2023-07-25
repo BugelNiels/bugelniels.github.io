@@ -21,6 +21,7 @@ const Root = () => {
                         <Nav.Link offset={-70} as={ScrollLink} to="education" smooth={true}>Education</Nav.Link>
                         <Nav.Link offset={-70} as={ScrollLink} to="experience" smooth={true}>Experience</Nav.Link>
                         <Nav.Link offset={-70} as={ScrollLink} to="projects" smooth={true}>Projects</Nav.Link>
+                        <Nav.Link offset={-70} as={ScrollLink} to="skills" smooth={true}>Skills</Nav.Link>
                         <Nav.Link offset={-70} as={ScrollLink} to="aboutme" smooth={true}>About Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
@@ -30,7 +31,7 @@ const Root = () => {
                 <Outlet/>
             </div>
 
-            <div className="footer container-fluid">
+            <div className="footer container-fluid secondary-comp p-5">
 
                 <div className="row d-flex justify-content-center p-3 mb-1">
                     <div className="col-2">
@@ -51,7 +52,7 @@ const Root = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="row justify-content-center p-1 mb-0">
+                <div className="row justify-content-center pt-4 mb-0">
                     <p>
                         &copy; 2023 Niels Bugel. All rights reserved.
                     </p>

@@ -10,13 +10,14 @@ import Badge from "react-bootstrap/Badge";
 
 const Project = (props) => {
 
-
-    const getTechBadge = (id, name) => {
-        return (
-            <Badge pill className={`m-1 ${id}`} bg="">
-                {name}
-            </Badge>
-        );
+    const getTechBadge = (technologies) => {
+        return technologies.map(tech => {
+            return (
+                <Badge pill key={tech.id} className={`m-1 ${tech.id}`} bg="">
+                    {tech.name}
+                </Badge>
+            );
+        });
     };
 
     return (
@@ -39,45 +40,44 @@ const Project = (props) => {
                     </ListGroup.Item>
                     <ListGroup.Item>
                         <div className="row justify-content-center">
-                            {props.github &&
-                                <div className="col-2 col-sm-4">
-                                    <Button className="github"
-                                            onMouseDown={() => openInNewTab(props.github)}>
-                                        <GitHubIcon style={{marginRight: '8px'}}/>
-                                        Source
-                                    </Button>
-                                </div>
-                            }
-                            {props.docs &&
-                                <div className="col-2 col-sm-4">
-                                    <Button variant="primary"
-                                            onMouseDown={() => openInNewTab(props.docs)}>
-                                        <DescriptionIcon style={{marginRight: '8px'}}/>
-                                        Docs
-                                    </Button>
-                                </div>
-                            }
+                            <div className="col-4 text-start">
+                                <h5>Language:</h5>
+                            </div>
+
+                            <div className="col-8 text-start">
+                                {props.technologies.length > 0 && <h5>Technologies:</h5>}
+                            </div>
+                        </div>
+                        <div className="row justify-content-center">
+                            <div className="col-4 text-start">
+                                {getTechBadge(props.languages)}
+                            </div>
+
+                            <div className="col-8 text-start">
+                                {getTechBadge(props.technologies)}
+                            </div>
                         </div>
                     </ListGroup.Item>
                     <ListGroup.Item>
                         <div className="row justify-content-center">
-                            <div className="col-4">
-                                <b>Languages:</b>
-                                {getTechBadge("cpp", "C++")}
-                                {getTechBadge("glsl", "GLSL")}
-                                {getTechBadge("bash", "Bash")}
-                            </div>
-
-                            <div className="col-4">
-                                <b>Technologies:</b>
-                                {getTechBadge("qt", "Qt")}
-                                {getTechBadge("opencv", "OpenCV")}
-                            </div>
-
-                            <div className="col-4">
-                                <b>Build:</b>
-                                {getTechBadge("cmake", "CMake")}
-                                {getTechBadge("docker", "Docker")}
+                            {/*<h4>Explore</h4>*/}
+                        </div>
+                        <div className="row text-start">
+                            <div className="col-12">
+                                {props.github &&
+                                    <Button className="github m-2"
+                                            onMouseDown={() => openInNewTab(props.github)}>
+                                        <GitHubIcon style={{marginRight: '8px'}}/>
+                                        Source
+                                    </Button>
+                                }
+                                {props.docs &&
+                                    <Button variant="primary m-2"
+                                            onMouseDown={() => openInNewTab(props.docs)}>
+                                        <DescriptionIcon style={{marginRight: '8px'}}/>
+                                        Docs
+                                    </Button>
+                                }
                             </div>
                         </div>
                     </ListGroup.Item>
