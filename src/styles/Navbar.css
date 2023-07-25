@@ -1,16 +1,15 @@
 .navbar {
-    height: 50px;
     margin: 0 auto;
     text-align: center;
-  }
+}
 
 .nav-link {
     padding: 13px 40px 13px !important;
     margin: 0px 15px 0px;
+    border-radius: 8px;
 }
 
 .navbar-text {
-    margin-right: 10px;
 }
 
 .nav-link:hover {
@@ -18,8 +17,8 @@
 }
 
 .footer {
-    background-color: hsl(220, 13%, 18%);
-    color: hsl(220, 13%, 70%);
+    background-color: #f7f7f8;
+    /*color: hsl(220, 13%, 70%);*/
 }
 
 .material-icons {
@@ -31,10 +30,10 @@
 }
 
 .clickable-link {
-    color: hsl(220, 13%, 90%);
+    color: hsl(220, 13%, 20%);
     text-decoration: none;
 }
 
 .clickable-link:hover {
-    color: hsl(220, 13%, 70%);
+    color: hsl(220, 13%, 40%);
 }

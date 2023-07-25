@@ -1,15 +1,55 @@
 body, body * {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.secondary-comp {
+    background-color: #f7f7f8;
+    /*border: 1px solid #d0d0d0;*/
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.education-link {
+    text-decoration: none;
+}
+
+.clickable-link {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .clickable-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .clickable-link span {
+        display: none;
+    }
+}
+
+button.github {
+    background-color: #2b3137;
+    border: 1px solid #2b3137;
+}
+
+button.github:hover {
+    background-color: #424b54;
+    border: 1px solid #424b54;
 }
 
 .cuda {
@@ -21,7 +61,7 @@ code {
 }
 
 .cpp {
-    background-color: #004C85;
+    background-color: #659ad2;
 }
 
 .pthreads {

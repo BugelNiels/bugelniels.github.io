@@ -3,7 +3,8 @@
         "public": [
             {
                 "title": "Nitro Node Editor",
-                "description": "Powerful and flexible node editor for image processing. Originally designed and implemented for my Master's thesis.",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
+                "description": "NITRO is a powerful tool for building complex image processing routines. Instead of needing to modify source code or scripts to process images in different ways, you can use this visual node editor to do that instead. The project was developed with extendability in mind, making it easy to add your own types nodes, and widgets. For more information on this, read the docs. The UI was inspired by Blender's Shader Editor. The project was originally developed for my Master thesis at the University of Groningen. That is also the origin of the name NITRO: Niels' Image-processing Thesis on Reconstruction Operations.",
                 "tools": [
                     "OpenMP",
                     "OpenGL",
@@ -14,6 +15,7 @@
             },
             {
                 "title": "Distributed GPU Convolution",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "A GPU implementation of generalized convolution operators. The framework is designed for large image data sets and can run in a distributed system.",
                 "tools": [
                     "MPI",
@@ -25,6 +27,7 @@
             },
             {
                 "title": "Conic Curve Subdivision",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "Framework developed for manipulating and subdividing curves using the newly developed conic subdivision method.",
                 "tools": [
                     "OpenMP",
@@ -36,6 +39,7 @@
             },
             {
                 "title": "Quadric Mesh Subdivision",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "Framework developed for viewing and subdividing 3D meshes using the newly developed quadric subdivision method.",
                 "tools": [
                     "OpenMP",
@@ -47,6 +51,7 @@
             },
             {
                 "title": "ImprocC",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "A simple image-processing framework written in C.",
                 "tools": [
                     "C"
@@ -55,6 +60,7 @@
             },
             {
                 "title": "CCheckmate",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "ImprocC is a simple unit testing framework for C. The main benefit of this framework is its simplificity. It is easy to use, easy to read and does not require any libraries.",
                 "tools": [
                     "C"
@@ -63,6 +69,7 @@
             },
             {
                 "title": "Parallel GPU Catmull-Clark Subdivision",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "This project is a CUDA implementation of the method described in the paper: A Halfedge Refinement Rule for Parallel Catmull-Clark Subdivision. It also has a number of optimizations to accelerate it even further.",
                 "tools": [
                     "CUDA",
@@ -72,6 +79,7 @@
             },
             {
                 "title": "Parallel CPU Catmull-Clark Subdivision",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "This framework contains the parallel CPU implementation of the method described in the paper: A Halfedge Refinement Rule for Parallel Catmull-Clark Subdivision.",
                 "tools": [
                     "OpenMP",
@@ -83,6 +91,7 @@
             },
             {
                 "title": "JColorDialog",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "JColorDialog is meant as an improvement over the default JColorChooser. It provides a better looking interface for picking colors.",
                 "tools": [
                     "Java"
@@ -91,6 +100,7 @@
             },
             {
                 "title": "C-Apriori",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "A fast C implementation of the Apriori algorithm.",
                 "tools": [
                     "C"
@@ -99,6 +109,7 @@
             },
             {
                 "title": "Personal Website",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "The website you are looking at right now :)",
                 "tools": [
                     "React",
@@ -110,6 +121,7 @@
         "private": [
             {
                 "title": "MATIG",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "Designed, built, and maintained MATIG: a system that simplifies the organisation and improves the efficiency of the matching procedure for several studies at the Faculty of Science and Engineering.",
                 "tools": [
                     "React",
@@ -122,6 +134,7 @@
             },
             {
                 "title": "Themis Plagiarism Checker",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "Worked on adding a plagiarism scanning and reporting feature to the online grading and code submission system Themis.",
                 "tools": [
                     "NodeJS",
@@ -130,6 +143,7 @@
             },
             {
                 "title": "Stock Market Simulation",
+                "imageUrl": "https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png",
                 "description": "Fully designed and implemented a stock market simulation assignment from scratch for the course Advanced Object-Oriented Programming.\nThe simulation involved a message queue, multi-threading, communication over TCP, and a custom-built frontend written in REACT.",
                 "tools": [
                     "Java",

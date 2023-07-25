@@ -5,4 +5,4 @@ const openInNewTab = async (url) => {
     }
 };
 
-export { openInNewTab };
+export {openInNewTab};

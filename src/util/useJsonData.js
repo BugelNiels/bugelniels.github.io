@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 
 const useJsonData = (file) => {
     const [result, setResult] = useState(null);

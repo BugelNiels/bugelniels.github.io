@@ -1,33 +1,38 @@
 import React from 'react'
-import { createBrowserRouter } from "react-router-dom";
+import {createBrowserRouter} from "react-router-dom";
 import Root from '../components/Root.js';
 import ErrorPage from '../routes/ErrorPage.js';
 import HomePage from '../routes/HomePage.js';
-import PortfolioPage from '../routes/PortfolioPage.js';
-import ResumePage from '../routes/ResumePage.js';
+import EducationPage from '../routes/EducationPage.js';
+import ExperiencePage from '../routes/ExperiencePage.js';
 import ProjectsPage from '../routes/ProjectsPage.js';
+import AboutMePage from "../routes/AboutMePage";
 
 const Router = createBrowserRouter([
     {
         path: "/",
-        element: <Root />,
-        errorElement: <ErrorPage />,
+        element: <Root/>,
+        errorElement: <ErrorPage/>,
         children: [
             {
                 path: "/",
-                element: <HomePage />,
+                element: <HomePage/>,
             },
             {
                 path: "/projects",
-                element: <ProjectsPage />,
+                element: <ProjectsPage/>,
             },
             {
-                path: "/portfolio",
-                element: <PortfolioPage />,
+                path: "/education",
+                element: <EducationPage/>,
             },
             {
-                path: "/resume",
-                element: <ResumePage />,
+                path: "/experience",
+                element: <ExperiencePage/>,
+            },
+            {
+                path: "/aboutme",
+                element: <AboutMePage/>,
             }
         ]
     },
