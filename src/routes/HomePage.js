@@ -12,7 +12,7 @@ import {Download, LinkedIn} from "@mui/icons-material";
 const HomePage = () => {
     return (
         <>
-            <div className="row justify-content-center p-5">
+            <div id="home" className="row justify-content-center p-5">
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <h3>Niels Bugel</h3>
@@ -31,16 +31,16 @@ const HomePage = () => {
                 </div>
 
             </div>
-            <div className="row justify-content-center">
+            <div id="education" className="row justify-content-center">
                 <EducationPage/>
             </div>
-            <div className="row justify-content-center">
+            <div id="experience" className="row justify-content-center">
                 <ExperiencePage/>
             </div>
-            <div className="row justify-content-center">
+            <div id="projects" className="row justify-content-center">
                 <ProjectsPage/>
             </div>
-            <div className="row justify-content-center">
+            <div id="aboutme" className="row justify-content-center">
                 <AboutMe/>
             </div>
         </>

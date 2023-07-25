@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {ListGroupItem} from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
 import ReadMoreText from "../components/ReadMore";
+import Experience from "../components/Experience";
 
 
 const ExperiencePage = () => {
@@ -37,28 +38,17 @@ const ExperiencePage = () => {
                     <h1>Work Experience</h1>
                 </div>
             </div>
-            <div className="row justify-content-center p-5">
-                <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-start">
-                    Feb 2019 - Jul 2023
-                </div>
-                <div className="col-8 col-sm-8 col-md-8 col-lg-6 text-start">
-                    <div className="row">
-                        <div className="col-6 text-start">
-                            <h3>Teaching Assistant</h3>
-                        </div>
-                        <div className="col-6 text-end">
-                            <h5><Link className="education-link"
-                                      to="https://www.rug.nl/" target="_blank"
-                                      rel="noopener noreferrer">University of groningen</Link></h5>
-                        </div>
-                    </div>
+            <Experience time="Feb 2019 - Jul 2023"
+                        title="Teaching Assistant"
+                        employer="University of groningen"
+                        employerLink="https://www.rug.nl/">
+                <p>
+                    Teaching Assistant for the following courses.
+                </p>
+
+                <ReadMoreText>
                     <p>
-                        Teaching Assistant for the following courses.
-
-                        <ReadMoreText>
-                            OOP is my baby
-                        </ReadMoreText>
-
+                        OOP is my baby
                     </p>
                     <p>
                         <h5>Bachelor Courses:</h5>
@@ -82,95 +72,50 @@ const ExperiencePage = () => {
                             {course("Advanced Parallel Programming", "", "Coordinator", "WMCS020-05", "2022-2023")}
                         </ListGroup>
                     </p>
-                </div>
-            </div>
-            <div className="row justify-content-center p-5">
-                <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-start">
-                    Oct 2019 - Jul 2023
-                </div>
-                <div className="col-8 col-sm-8 col-md-8 col-lg-6 text-start">
-                    <div className="row">
-                        <div className="col-6 text-start">
-                            <h3>Numerus Fixus Coordinator CS</h3>
-                        </div>
-                        <div className="col-6 text-end">
-                            <h5><Link className="education-link"
-                                      to="https://www.rug.nl/" target="_blank"
-                                      rel="noopener noreferrer">University of groningen</Link></h5>
-                        </div>
-                    </div>
-                    <p>
-                        Coordinator of the Numerus Fixus procedure for Computing Science. Also involved in streamlining
-                        the Numerus Fixus process on a faculty level.
-                        Before this, this was called the matching process. TODO.
-                    </p>
-                </div>
-            </div>
-            <div className="row justify-content-center p-5">
-                <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-start">
-                    Oct 2020 - Jul 2022
-                </div>
-                <div className="col-8 col-sm-8 col-md-8 col-lg-6 text-start">
-                    <div className="row">
-                        <div className="col-6 text-start">
-                            <h3>Full Stack Web Developer MATIG</h3>
-                        </div>
-                        <div className="col-6 text-end">
-                            <h5><Link className="education-link"
-                                      to="https://www.rug.nl/" target="_blank"
-                                      rel="noopener noreferrer">University of groningen</Link></h5>
-                        </div>
-                    </div>
-                    <p>
-                        Designed, built, and maintained MATIG: a system that simplifies the organisation and improves
-                        the efficiency of the matching procedure for several studies at the Faculty of Science and
-                        Engineering.
-                        MATIG was built using MongoDB, Express, React, NodeJS, Redis, and Kubernetes.
-                    </p>
-                </div>
-            </div>
-            <div className="row justify-content-center p-5">
-                <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-start">
-                    Apr 2021 - Oct 2021
-                </div>
-                <div className="col-8 col-sm-8 col-md-8 col-lg-6 text-start">
-                    <div className="row">
-                        <div className="col-6 text-start">
-                            <h3>Web Developer Themis</h3>
-                        </div>
-                        <div className="col-6 text-end">
-                            <h5><Link className="education-link"
-                                      to="https://www.rug.nl/" target="_blank"
-                                      rel="noopener noreferrer">University of groningen</Link></h5>
-                        </div>
-                    </div>
-                    <p>
-                        Responsible for adding a plagiarism scanning and reporting feature to the online grading system
-                        Themis.
-                    </p>
-                </div>
-            </div>
-            <div className="row justify-content-center p-5">
-                <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-start">
-                    Aug 2019 - Jan 2020
-                </div>
-                <div className="col-8 col-sm-8 col-md-8 col-lg-6 text-start">
-                    <div className="row">
-                        <div className="col-6 text-start">
-                            <h3>Student Mentor</h3>
-                        </div>
-                        <div className="col-6 text-end">
-                            <h5><Link className="education-link"
-                                      to="https://www.rug.nl/" target="_blank"
-                                      rel="noopener noreferrer">University of groningen</Link></h5>
-                        </div>
-                    </div>
-                    <p>
-                        Responsible for mentoring a group of first year Computing Science Bachelor students to provide
-                        guidance w.r.t. studying and university life.
-                    </p>
-                </div>
-            </div>
+                </ReadMoreText>
+
+
+            </Experience>
+
+            <Experience time="Oct 2019 - Jul 2023"
+                        title="Numerus Fixus Coordinator CS"
+                        employer="University of groningen"
+                        employerLink="https://www.rug.nl/">
+                <p>
+                    Coordinator of the Numerus Fixus procedure for Computing Science. Also involved in streamlining
+                    the Numerus Fixus process on a faculty level.
+                    Before this, this was called the matching process. TODO.
+                </p>
+            </Experience>
+            <Experience time="Oct 2020 - Jul 2022"
+                        title="Full Stack Web Developer MATIG"
+                        employer="University of groningen"
+                        employerLink="https://www.rug.nl/">
+                <p>
+                    Designed, built, and maintained MATIG: a system that simplifies the organisation and improves
+                    the efficiency of the matching procedure for several studies at the Faculty of Science and
+                    Engineering.
+                    MATIG was built using MongoDB, Express, React, NodeJS, Redis, and Kubernetes.
+                </p>
+            </Experience>
+            <Experience time="Apr 2021 - Oct 2021"
+                        title="Web Developer Themis"
+                        employer="University of groningen"
+                        employerLink="https://www.rug.nl/">
+                <p>
+                    Responsible for adding a plagiarism scanning and reporting feature to the online grading system
+                    Themis.
+                </p>
+            </Experience>
+            <Experience time="Aug 2019 - Jan 2020"
+                        title="Student Mentor"
+                        employer="University of groningen"
+                        employerLink="https://www.rug.nl/">
+                <p>
+                    Responsible for mentoring a group of first year Computing Science Bachelor students to provide
+                    guidance w.r.t. studying and university life.
+                </p>
+            </Experience>
         </>
     );
 };

@@ -8,6 +8,7 @@ import '../styles/Navbar.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import {Link as ScrollLink} from 'react-scroll';
 
 const Root = () => {
     return (
@@ -16,11 +17,11 @@ const Root = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="m-auto">
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/education">Education</Nav.Link>
-                        <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
-                        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-                        <Nav.Link as={Link} to="/aboutme">About Me</Nav.Link>
+                        <Nav.Link offset={-70} as={ScrollLink} to="home" smooth={true}>Home</Nav.Link>
+                        <Nav.Link offset={-70} as={ScrollLink} to="education" smooth={true}>Education</Nav.Link>
+                        <Nav.Link offset={-70} as={ScrollLink} to="experience" smooth={true}>Experience</Nav.Link>
+                        <Nav.Link offset={-70} as={ScrollLink} to="projects" smooth={true}>Projects</Nav.Link>
+                        <Nav.Link offset={-70} as={ScrollLink} to="aboutme" smooth={true}>About Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
@@ -29,7 +30,7 @@ const Root = () => {
                 <Outlet/>
             </div>
 
-            <div className="footer container-fluid" >
+            <div className="footer container-fluid">
 
                 <div className="row d-flex justify-content-center p-3 mb-1">
                     <div className="col-2">
