@@ -12,7 +12,6 @@ const CAprioriProject = () => {
             ]}
             technologies={[
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png"
             github="https://github.com/BugelNiels/c-apriori">
             <Card.Text>
                 A fast C implementation of the Apriori algorithm.

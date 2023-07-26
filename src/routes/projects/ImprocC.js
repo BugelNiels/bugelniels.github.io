@@ -12,7 +12,6 @@ const ImprocCProject = () => {
             ]}
             technologies={[
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png"
             github="https://github.com/BugelNiels/improcc">
             <Card.Text>
                 A simple image-processing framework written in C. Developed from scratch for the course Image Processing.

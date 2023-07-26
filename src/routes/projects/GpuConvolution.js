@@ -15,7 +15,6 @@ const GpuConvolutionProject = () => {
                 {id: "mpi", name: "MPI"},
                 {id: "pthreads", name: "pthreads"}
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png"
             github="https://github.com/BugelNiels/distributed-gpu-convolution">
             <Card.Text>
                 A GPU implementation of generalized convolution operators. The framework is designed for large image data sets and can run in a distributed system.

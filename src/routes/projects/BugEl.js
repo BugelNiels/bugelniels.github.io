@@ -12,7 +12,6 @@ const BugElProject = () => {
             ]}
             technologies={[
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png"
             github="https://github.com/BugelNiels/bug-el">
             <Card.Text>
                 Custom Java Implementation of JUnit. Meant as a demo to demystify JUnit.

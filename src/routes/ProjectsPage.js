@@ -34,7 +34,7 @@ const ProjectsPage = () => {
                         <GpuConvolutionProject/>
                     </div>
                     <div className="col-6">
-                        <MatigProject/>
+                        <GpuSubdivisionProject/>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const ProjectsPage = () => {
 
                 <div className="row justify-content-center p-2">
                     <div className="col-6">
-                        <GpuSubdivisionProject/>
+                        <MatigProject/>
                     </div>
                     <div className="col-6">
                         <CpuSubdivisionProject/>

@@ -28,13 +28,13 @@ const Project = (props) => {
 
             <Card.Body>
                 <ListGroup variant="flush">
-                    <ListGroup.Item className="text-start">
+                    {props.image && <ListGroup.Item className="text-start">
                         <Card.Img variant="top"
                                   src={props.image}
                                   alt={props.title}
                                   style={{maxHeight: "400px"}}/>
 
-                    </ListGroup.Item>
+                    </ListGroup.Item>}
                     <ListGroup.Item className="text-start">
                         {props.children}
                     </ListGroup.Item>
