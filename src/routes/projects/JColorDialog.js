@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../../components/Project";
+import ProjectImage from "../../assets/images/colordialog.webp"
 
 const JColorDialogProject = () => {
 
@@ -11,11 +12,13 @@ const JColorDialogProject = () => {
                 {id: "java", name: "Java"}
             ]}
             technologies={[
+                {id: "maven", name: "Maven"}
             ]}
-            image="https://github.com/BugelNiels/JColorDialog/raw/main/images/example.png"
+            image={ProjectImage}
             github="https://github.com/BugelNiels/JColorDialog">
             <Card.Text>
-                JColorDialog is meant as an improvement over the default JColorChooser. It provides a better looking interface for picking colors.
+                JColorDialog is meant as an improvement over the default JColorChooser. It provides a better looking
+                interface for picking colors.
             </Card.Text>
         </Project>
     );

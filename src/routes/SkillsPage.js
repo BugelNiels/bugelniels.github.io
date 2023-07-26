@@ -22,6 +22,24 @@ const SkillsPage = () => {
             </div>
             <div className="row justify-content-center p-2">
                 <div className="col-3">
+                    <h5>General</h5>
+                </div>
+            </div>
+
+            <div className="row justify-content-center p-2">
+                <div className="col-3">
+                    {jsonToLines(
+                        [
+                            "Excellent Presentation Skills",
+                            "Funny guy (I have a certificate)",
+                            "Quick learner",
+                            "99 runecrafting"
+                        ]
+                    )}
+                </div>
+            </div>
+            <div className="row justify-content-center p-2">
+                <div className="col-3">
                     <h5>Languages</h5>
                 </div>
                 <div className="col-3">
@@ -38,7 +56,7 @@ const SkillsPage = () => {
                             "C++",
                             "C",
                             "Java",
-                            "Javscript",
+                            "Javascript",
                             "SQL",
                             "Bash",
                             "Python",
@@ -91,7 +109,7 @@ const SkillsPage = () => {
                     )}
                 </div>
             </div>
-            99 construction
+
         </>
     );
 };

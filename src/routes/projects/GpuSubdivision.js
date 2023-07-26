@@ -11,7 +11,8 @@ const GpuSubdivisionProject = () => {
                 {id: "c", name: "C"}
             ]}
             technologies={[
-                {id: "cuda", name: "CUDA"}
+                {id: "cuda", name: "CUDA"},
+                {id: "make", name: "Make"}
             ]}
             github="https://github.com/BugelNiels/parallel-gpu-catmull-clark-subdivision">
             <Card.Text>

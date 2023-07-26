@@ -19,6 +19,8 @@ const HomePage = () => {
                         <h3>Niels Bugel</h3>
                         <p>
                             Welcome to my website.
+
+                            Quick learner. I am useful not because of what I know now, but because of what I can know in a week.
                         </p>
                     </div>
                 </div>

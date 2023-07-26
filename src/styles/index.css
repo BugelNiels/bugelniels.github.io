@@ -20,6 +20,14 @@ code {
 .section-title {
 }
 
+.clickable-icon {
+    cursor: pointer;
+}
+
+.clickable-icon:hover {
+
+}
+
 .main-container {
     display: flex;
     flex-direction: column;

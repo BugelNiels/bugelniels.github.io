@@ -40,16 +40,16 @@ const ProjectsPage = () => {
 
                 <div className="row justify-content-center p-2">
                     <div className="col-6">
-                        <ConicSubdivisionProject/>
+                        <MatigProject/>
                     </div>
                     <div className="col-6">
-                        <QuadricSubdivisionProject/>
+                        <ConicSubdivisionProject/>
                     </div>
                 </div>
 
                 <div className="row justify-content-center p-2">
                     <div className="col-6">
-                        <MatigProject/>
+                        <QuadricSubdivisionProject/>
                     </div>
                     <div className="col-6">
                         <CpuSubdivisionProject/>

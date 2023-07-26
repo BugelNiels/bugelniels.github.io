@@ -11,6 +11,7 @@ const CCheckmateProject = () => {
                 {id: "c", name: "C"}
             ]}
             technologies={[
+                {id: "make", name: "Make"},
             ]}
             github="https://github.com/BugelNiels/ccheckmate">
             <Card.Text>

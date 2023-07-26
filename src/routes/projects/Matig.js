@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../../components/Project";
+import ProjectImage from "../../assets/images/matig.webp"
 
 const MatigProject = () => {
 
@@ -17,7 +18,7 @@ const MatigProject = () => {
                 {id: "redis", name: "Redis"},
                 {id: "kubernetes", name: "Kubernetes"}
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png">
+            image={ProjectImage}>
             <Card.Text>
                 Designed, built, and maintained MATIG: a system that simplifies the organisation and improves the efficiency of the matching procedure for several studies at the Faculty of Science and Engineering.
             </Card.Text>

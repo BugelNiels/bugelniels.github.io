@@ -11,7 +11,8 @@ const QtValueSliderProject = () => {
                 {id: "cpp", name: "C++"}
             ]}
             technologies={[
-                {id: "qt", name: "Qt"}
+                {id: "qt", name: "Qt"},
+                {id: "cmake", name: "CMake"}
             ]}
             image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png"
             github="https://github.com/BugelNiels/qt-value-slider">

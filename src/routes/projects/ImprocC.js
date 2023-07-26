@@ -11,6 +11,8 @@ const ImprocCProject = () => {
                 {id: "c", name: "C"}
             ]}
             technologies={[
+                {id: "opengl", name: "OpenGL"},
+                {id: "make", name: "Make"}
             ]}
             github="https://github.com/BugelNiels/improcc">
             <Card.Text>

@@ -13,7 +13,8 @@ const GpuConvolutionProject = () => {
             technologies={[
                 {id: "cuda", name: "CUDA"},
                 {id: "mpi", name: "MPI"},
-                {id: "pthreads", name: "pthreads"}
+                {id: "pthreads", name: "pthreads"},
+                {id: "bash", name: "Bash"},
             ]}
             github="https://github.com/BugelNiels/distributed-gpu-convolution">
             <Card.Text>

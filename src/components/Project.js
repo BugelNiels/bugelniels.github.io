@@ -13,7 +13,7 @@ const Project = (props) => {
     const getTechBadge = (technologies) => {
         return technologies.map(tech => {
             return (
-                <Badge pill key={tech.id} className={`m-1 ${tech.id}`} bg="">
+                <Badge pill key={tech.id} className={`m-1`}>
                     {tech.name}
                 </Badge>
             );
@@ -23,7 +23,22 @@ const Project = (props) => {
     return (
         <Card className="m-2 p-0">
             <Card.Header>
-                <Card.Title>{props.title}</Card.Title>
+
+                <div className="row justify-content-center">
+                    <div className="col-8 text-start">
+                        <Card.Title>{props.title}</Card.Title>
+                    </div>
+                    <div className="col-4 text-end">
+                        {props.github &&
+                            <GitHubIcon
+                                className="clickable-icon"
+                                onMouseDown={() => openInNewTab(props.github)}
+                            />
+                        }
+                    </div>
+
+                </div>
+
             </Card.Header>
 
             <Card.Body>
@@ -32,7 +47,7 @@ const Project = (props) => {
                         <Card.Img variant="top"
                                   src={props.image}
                                   alt={props.title}
-                                  style={{maxHeight: "400px"}}/>
+                                  style={{maxHeight: "512px", borderRadius: "10px"}}/>
 
                     </ListGroup.Item>}
                     <ListGroup.Item className="text-start">
@@ -40,47 +55,35 @@ const Project = (props) => {
                     </ListGroup.Item>
                     <ListGroup.Item>
                         <div className="row justify-content-center">
-                            <div className="col-4 text-start">
-                                <h5>Language:</h5>
-                            </div>
-
-                            <div className="col-8 text-start">
-                                {props.technologies.length > 0 && <h5>Technologies:</h5>}
-                            </div>
-                        </div>
-                        <div className="row justify-content-center">
-                            <div className="col-4 text-start">
+                            <div className="col-2 text-start">
                                 {getTechBadge(props.languages)}
                             </div>
 
-                            <div className="col-8 text-start">
+                            <div className="col-10 text-end">
                                 {getTechBadge(props.technologies)}
                             </div>
                         </div>
                     </ListGroup.Item>
-                    <ListGroup.Item>
-                        <div className="row justify-content-center">
-                            {/*<h4>Explore</h4>*/}
-                        </div>
-                        <div className="row text-start">
-                            <div className="col-12">
-                                {props.github &&
-                                    <Button className="github m-2"
-                                            onMouseDown={() => openInNewTab(props.github)}>
-                                        <GitHubIcon style={{marginRight: '8px'}}/>
-                                        Source
-                                    </Button>
-                                }
-                                {props.docs &&
-                                    <Button variant="primary m-2"
-                                            onMouseDown={() => openInNewTab(props.docs)}>
-                                        <DescriptionIcon style={{marginRight: '8px'}}/>
-                                        Docs
-                                    </Button>
-                                }
-                            </div>
-                        </div>
-                    </ListGroup.Item>
+                    {/*<ListGroup.Item>*/}
+                    {/*    <div className="row ">*/}
+                    {/*        <div className="col-12">*/}
+                    {/*            {props.github &&*/}
+                    {/*                <Button className="github m-2"*/}
+                    {/*                        onMouseDown={() => openInNewTab(props.github)}>*/}
+                    {/*                    <GitHubIcon style={{marginRight: '8px'}}/>*/}
+                    {/*                    Source*/}
+                    {/*                </Button>*/}
+                    {/*            }*/}
+                    {/*            {props.docs &&*/}
+                    {/*                <Button variant="primary m-2"*/}
+                    {/*                        onMouseDown={() => openInNewTab(props.docs)}>*/}
+                    {/*                    <DescriptionIcon style={{marginRight: '8px'}}/>*/}
+                    {/*                    Docs*/}
+                    {/*                </Button>*/}
+                    {/*            }*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</ListGroup.Item>*/}
                 </ListGroup>
             </Card.Body>
         </Card>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../../components/Project";
+import ProjectImage from "../../assets/images/conic_light.webp"
 
 const ConicSubdivisionProject = () => {
 
@@ -13,9 +14,10 @@ const ConicSubdivisionProject = () => {
             technologies={[
                 {id: "openmp", name: "OpenMP"},
                 {id: "qt", name: "Qt"},
-                {id: "opengl", name: "OpenGL"}
+                {id: "opengl", name: "OpenGL"},
+                {id: "cmake", name: "CMake"},
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png">
+            image={ProjectImage}>
             <Card.Text>
                 Framework developed for manipulating and subdividing curves using the newly developed conic subdivision method.
             </Card.Text>

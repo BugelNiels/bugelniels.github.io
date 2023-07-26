@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../../components/Project";
+import ProjectImage from "../../assets/images/catmull_subdivision.webp"
 
 const CpuSubdivisionProject = () => {
 
@@ -13,9 +14,10 @@ const CpuSubdivisionProject = () => {
             technologies={[
                 {id: "openmp", name: "OpenMP"},
                 {id: "qt", name: "Qt"},
-                {id: "opengl", name: "OpenGL"}
+                {id: "opengl", name: "OpenGL"},
+                {id: "qt", name: "QMake"},
             ]}
-            image="https://github.com/BugelNiels/parallel-cpu-catmull-clark-subdivision/raw/main/screenshots/obj_wireframe.png"
+            image={ProjectImage}
             github="https://github.com/BugelNiels/parallel-cpu-catmull-clark-subdivision">
             <Card.Text>
                 This framework contains the parallel CPU implementation of the method described in the paper: A Halfedge Refinement Rule for Parallel Catmull-Clark Subdivision.

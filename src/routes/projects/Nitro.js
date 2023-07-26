@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../../components/Project";
+import ProjectImage from "../../assets/images/nitro.webp"
 
 const NitroProject = () => {
 
@@ -11,14 +12,14 @@ const NitroProject = () => {
                 {id: "cpp", name: "C++"}
             ]}
             technologies={[
-                {id: "glsl", name: "GLSL"},
+                {id: "opengl", name: "OpenGL"},
                 {id: "bash", name: "Bash"},
                 {id: "qt", name: "Qt"},
                 {id: "opencv", name: "OpenCV"},
                 {id: "cmake", name: "CMake"},
                 {id: "docker", name: "Docker"}
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png"
+            image={ProjectImage}
             github="https://github.com/BugelNiels/nitro"
             docs="https://bugelniels.github.io/nitro/">
             <Card.Text>
