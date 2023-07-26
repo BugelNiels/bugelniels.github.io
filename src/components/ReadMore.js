@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 
+// TODO: move to stylesheet
 const ReadMoreText = (props) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
@@ -14,16 +15,17 @@ const ReadMoreText = (props) => {
             </p>
             <p>
                 {isExpanded &&
-                    <span style={{color: '#126ffd', cursor: 'pointer'}} onClick={toggleReadMore}
-                          className="read-more-link">
-                Read less...
-                </span>
+                    <button style={{color: '#126ffd', cursor: 'pointer', backgroundColor: "transparent", border: "none", padding: 0}} onClick={toggleReadMore}
+                            className="read-more-link">
+                        Read less...
+                    </button>
                 }
             </p>
             {!isExpanded &&
-                <span style={{color: '#126ffd', cursor: 'pointer'}} onClick={toggleReadMore} className="read-more-link">
+                <button style={{color: '#126ffd', cursor: 'pointer', backgroundColor: "transparent", border: "none", padding: 0}} onClick={toggleReadMore}
+                        className="read-more-link">
                     Read more...
-                </span>
+                </button>
             }
         </div>
     );

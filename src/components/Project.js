@@ -1,11 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Button from 'react-bootstrap/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import DescriptionIcon from '@mui/icons-material/Description';
 import {openInNewTab} from '../util/newTabOpener';
 import Badge from "react-bootstrap/Badge";
+import {StaticImage} from "gatsby-plugin-image"
 
 
 const Project = (props) => {
@@ -64,26 +63,6 @@ const Project = (props) => {
                             </div>
                         </div>
                     </ListGroup.Item>
-                    {/*<ListGroup.Item>*/}
-                    {/*    <div className="row ">*/}
-                    {/*        <div className="col-12">*/}
-                    {/*            {props.github &&*/}
-                    {/*                <Button className="github m-2"*/}
-                    {/*                        onMouseDown={() => openInNewTab(props.github)}>*/}
-                    {/*                    <GitHubIcon style={{marginRight: '8px'}}/>*/}
-                    {/*                    Source*/}
-                    {/*                </Button>*/}
-                    {/*            }*/}
-                    {/*            {props.docs &&*/}
-                    {/*                <Button variant="primary m-2"*/}
-                    {/*                        onMouseDown={() => openInNewTab(props.docs)}>*/}
-                    {/*                    <DescriptionIcon style={{marginRight: '8px'}}/>*/}
-                    {/*                    Docs*/}
-                    {/*                </Button>*/}
-                    {/*            }*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</ListGroup.Item>*/}
                 </ListGroup>
             </Card.Body>
         </Card>

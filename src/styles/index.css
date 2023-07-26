@@ -12,9 +12,23 @@ code {
     monospace;
 }
 
+.centered-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
 .secondary-comp {
     background-color: #f0f0f0;
     border: 1px solid #dedede;
+}
+
+.large-icon {
+    font-size: 140px;
 }
 
 .section-title {

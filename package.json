@@ -1,47 +1,30 @@
 {
-  "name": "personal_website",
-  "version": "0.1.0",
+  "name": "niels-bugel",
+  "version": "1.0.0",
   "private": true,
+  "description": "niels-bugel",
+  "author": "Niels Bugel",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "node_modules/.bin/gatsby develop",
+    "start": "node_modules/.bin/gatsby develop",
+    "build": "node_modules/.bin/gatsby build",
+    "serve": "node_modules/.bin/gatsby serve",
+    "clean": "node_modules/.bin/gatsby clean"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.2.3",
-    "node": "^20.5.0",
+    "bootstrap": "^5.3.1",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-image": "^3.11.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.9",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "react-scroll": "^1.8.9"
   }
 }

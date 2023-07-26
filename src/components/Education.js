@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from "react-router-dom";
 
 const Education = (props) => {
     return (
@@ -14,8 +13,8 @@ const Education = (props) => {
                     </div>
                 </div>
                 <div className="col-12 text-start">
-                    <h5><Link className="education-link" to={props.programmeLink}
-                              target="_blank" rel="noopener noreferrer">{props.institution}</Link></h5>
+                    <h5><a className="education-link" href={props.programmeLink}
+                           target="_blank" rel="noopener noreferrer">{props.institution}</a></h5>
                 </div>
                 <p>
                     <b>GPA:</b> {props.GPA}
