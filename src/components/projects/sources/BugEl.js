@@ -1,13 +1,14 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
-import ProjectImage from "../../images/projects/colordialog.webp"
 
-const JColorDialogProject = () => {
+import ProjectImage from "../../../images/projects/bugel.webp"
+
+const BugElProject = () => {
 
     return (
         <Project
-            title="JColorDialog"
+            title="Bug-El"
             languages={[
                 {id: "java", name: "Java"}
             ]}
@@ -15,13 +16,12 @@ const JColorDialogProject = () => {
                 {id: "maven", name: "Maven"}
             ]}
             image={ProjectImage}
-            github="https://github.com/BugelNiels/JColorDialog">
+            github="https://github.com/BugelNiels/bug-el">
             <Card.Text>
-                JColorDialog is meant as an improvement over the default JColorChooser. It provides a better looking
-                interface for picking colors.
+                Custom Java Implementation of JUnit. Meant as a demo to demystify JUnit.
             </Card.Text>
         </Project>
     );
 };
 
-export default JColorDialogProject;
+export default BugElProject;

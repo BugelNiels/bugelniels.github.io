@@ -2,7 +2,7 @@ import React from 'react'
 import ListGroup from "react-bootstrap/ListGroup";
 import {ListGroupItem} from "react-bootstrap";
 import Education from "./Education";
-import ReadMoreText from "./ReadMore";
+import ReadMoreText from "../ReadMore";
 
 
 const EducationPage = () => {

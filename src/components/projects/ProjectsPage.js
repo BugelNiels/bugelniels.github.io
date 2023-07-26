@@ -1,18 +1,18 @@
 import React from 'react';
 
-import NitroProject from './projects/Nitro';
-import GpuConvolutionProject from "./projects/GpuConvolution";
-import GpuSubdivisionProject from "./projects/GpuSubdivision";
-import CpuSubdivisionProject from "./projects/CpuSubdivision";
-import MatigProject from "./projects/Matig";
-import ConicSubdivisionProject from "./projects/ConicSubdivision";
-import QuadricSubdivisionProject from "./projects/QuadricSubdivision";
-import ImprocCProject from "./projects/ImprocC";
-import CCheckmateProject from "./projects/CCeckmate";
-import JColorDialogProject from "./projects/JColorDialog";
-import BugElProject from "./projects/BugEl";
-import QtValueSliderProject from "./projects/QtValueSlider";
-import PersonalWebsiteProject from "./projects/PersonalWebsite";
+import NitroProject from './sources/Nitro';
+import GpuConvolutionProject from "./sources/GpuConvolution";
+import GpuSubdivisionProject from "./sources/GpuSubdivision";
+import CpuSubdivisionProject from "./sources/CpuSubdivision";
+import MatigProject from "./sources/Matig";
+import ConicSubdivisionProject from "./sources/ConicSubdivision";
+import QuadricSubdivisionProject from "./sources/QuadricSubdivision";
+import ImprocCProject from "./sources/ImprocC";
+import CCheckmateProject from "./sources/CCeckmate";
+import JColorDialogProject from "./sources/JColorDialog";
+import BugElProject from "./sources/BugEl";
+import QtValueSliderProject from "./sources/QtValueSlider";
+import PersonalWebsiteProject from "./sources/PersonalWebsite";
 
 const ProjectsPage = () => {
 
@@ -23,12 +23,12 @@ const ProjectsPage = () => {
                     <h1>Projects</h1>
                 </div>
             </div>
-            <div className="col-lg-6 col-md-8 col-sm-10">
+            <div className="col-lg-6 col-md-10 col-12">
                 <div className="row justify-content-center p-2">
                     <NitroProject/>
                 </div>
 
-                <div className="row justify-content-center p-2">
+                <div className="row justify-content-center">
                     <div className="col-6">
                         <GpuConvolutionProject/>
                     </div>
@@ -37,7 +37,7 @@ const ProjectsPage = () => {
                     </div>
                 </div>
 
-                <div className="row justify-content-center p-2">
+                <div className="row justify-content-center">
                     <div className="col-6">
                         <MatigProject/>
                     </div>
@@ -46,7 +46,7 @@ const ProjectsPage = () => {
                     </div>
                 </div>
 
-                <div className="row justify-content-center p-2">
+                <div className="row justify-content-center">
                     <div className="col-6">
                         <QuadricSubdivisionProject/>
                     </div>
@@ -55,7 +55,7 @@ const ProjectsPage = () => {
                     </div>
                 </div>
 
-                <div className="row justify-content-center p-2">
+                <div className="row justify-content-center">
                     <div className="col-6">
                         <ImprocCProject/>
                     </div>
@@ -64,7 +64,7 @@ const ProjectsPage = () => {
                     </div>
                 </div>
 
-                <div className="row justify-content-center p-2">
+                <div className="row justify-content-center">
                     <div className="col-6">
                         <JColorDialogProject/>
                     </div>
@@ -72,7 +72,7 @@ const ProjectsPage = () => {
                         <BugElProject/>
                     </div>
                 </div>
-                <div className="row justify-content-center p-2">
+                <div className="row justify-content-center">
                     <div className="col-6">
                         <QtValueSliderProject/>
                     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {ListGroupItem} from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
-import ReadMoreText from "./ReadMore";
+import ReadMoreText from "../ReadMore";
 import Experience from "./Experience";
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import CodeIcon from '../images/icons/languages.svg';
-import AppsIcon from '../images/icons/apps.svg';
-import SettingsIcon from '../images/icons/frameworks.svg';
+import CodeIcon from '../../images/icons/languages.svg';
+import AppsIcon from '../../images/icons/apps.svg';
+import SettingsIcon from '../../images/icons/frameworks.svg';
 
 const SkillsPage = () => {
 
@@ -48,13 +48,13 @@ const SkillsPage = () => {
             </div>
             <div className="row justify-content-center p-2 m-5">
                 <div className="col-3">
-                    <h5>Languages</h5>
+                    <h4>Languages</h4>
                 </div>
                 <div className="col-3">
-                    <h5>Frameworks & Tools</h5>
+                    <h4>Frameworks & Tools</h4>
                 </div>
                 <div className="col-3">
-                    <h5>Software</h5>
+                    <h4>Software</h4>
                 </div>
             </div>
             <div className="row justify-content-center p-2">
@@ -106,6 +106,7 @@ const SkillsPage = () => {
                             "Adobe Photoshop",
                             "Adobe Premiere Pro",
                             "Adobe After Effects",
+                            "Google Search"
                         ]
                     )}
                 </div>

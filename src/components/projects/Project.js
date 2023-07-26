@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import {openInNewTab} from '../util/newTabOpener';
+import {openInNewTab} from '../../util/newTabOpener';
 import Badge from "react-bootstrap/Badge";
 import {StaticImage} from "gatsby-plugin-image"
 
@@ -20,7 +20,7 @@ const Project = (props) => {
     };
 
     return (
-        <Card className="m-2 p-0">
+        <Card className="p-0 mb-4">
             <Card.Header>
 
                 <div className="row justify-content-center">

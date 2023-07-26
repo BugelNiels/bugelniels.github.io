@@ -2,10 +2,10 @@ import React from 'react'
 import {createBrowserRouter} from "react-router-dom";
 import Root from '../components/Root.js';
 import HomePage from '../components/HomePage.js';
-import EducationPage from '../components/EducationPage.js';
-import ExperiencePage from '../components/ExperiencePage.js';
-import ProjectsPage from '../components/ProjectsPage.js';
-import AboutMePage from "../components/AboutMePage";
+import EducationPage from '../components/education/EducationPage.js';
+import ExperiencePage from '../components/experience/ExperiencePage.js';
+import ProjectsPage from '../components/projects/ProjectsPage.js';
+import AboutMePage from "../components/aboutme/AboutMePage";
 
 const Router = createBrowserRouter([
     {
