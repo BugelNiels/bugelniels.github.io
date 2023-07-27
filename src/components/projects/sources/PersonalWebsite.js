@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
+import ProjectImage from "../../../images/projects/mirror.png";
 
 const PersonalWebsiteProject = () => {
 
@@ -14,7 +15,7 @@ const PersonalWebsiteProject = () => {
                 {id: "react", name: "React"},
                 {id: "gatsby", name: "Gatsby"}
             ]}
-            image="https://raw.githubusercontent.com/BugelNiels/nitro/main/docs/screenshots/front.png"
+            image={ProjectImage}
             github="https://github.com/BugelNiels/bugelniels.github.io">
             <Card.Text>
                 The website you are looking at right now :)

@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
+import ProjectImage from "../../../images/projects/improcc.webp";
 
 const ImprocCProject = () => {
 
@@ -14,7 +15,9 @@ const ImprocCProject = () => {
                 {id: "opengl", name: "OpenGL"},
                 {id: "make", name: "Make"}
             ]}
-            github="https://github.com/BugelNiels/improcc">
+            image={ProjectImage}
+            github="https://github.com/BugelNiels/improcc"
+            docs="https://github.com/BugelNiels/improcc/wiki/Documentation">
             <Card.Text>
                 A simple image-processing framework written in C. Developed from scratch for the course Image Processing.
             </Card.Text>

@@ -47,6 +47,14 @@ const ProjectsPage = () => {
                         <ConicSubdivisionProject/>
                     </div>
                 </div>
+                <div className="row justify-content-center">
+                    <div className="col-6">
+                        <StockMarketProject/>
+                    </div>
+                    <div className="col-6">
+                        <FlapsProject/>
+                    </div>
+                </div>
 
                 <div className="row justify-content-center">
                     <div className="col-6">
@@ -80,14 +88,6 @@ const ProjectsPage = () => {
                     </div>
                     <div className="col-6">
                         <PersonalWebsiteProject/>
-                    </div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-6">
-                        <StockMarketProject/>
-                    </div>
-                    <div className="col-6">
-                        <FlapsProject/>
                     </div>
                 </div>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
+import ProjectImage from "../../../images/projects/convolution.png";
 
 const GpuConvolutionProject = () => {
 
@@ -16,6 +17,7 @@ const GpuConvolutionProject = () => {
                 {id: "pthreads", name: "pthreads"},
                 {id: "bash", name: "Bash"},
             ]}
+            image={ProjectImage}
             github="https://github.com/BugelNiels/distributed-gpu-convolution">
             <Card.Text>
                 A GPU implementation of generalized convolution operators. The framework is designed for large image data sets and can run in a distributed system.

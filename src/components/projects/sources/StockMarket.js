@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
-import ProjectImage from "../../../images/projects/colordialog.webp"
+import ProjectImage from "../../../images/projects/stocks.webp"
 
 const StockMarketProject = () => {
 
@@ -16,6 +16,7 @@ const StockMarketProject = () => {
                 {id: "react", name: "React"},
                 {id: "junit", name: "JUnit"},
                 {id: "mockito", name: "Mockito"},
+                {id: "docker", name: "Docker"},
                 {id: "tcp", name: "TCP"}
             ]}
             image={ProjectImage}>

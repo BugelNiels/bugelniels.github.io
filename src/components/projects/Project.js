@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import {openInNewTab} from '../../util/newTabOpener';
 import Badge from "react-bootstrap/Badge";
-import {StaticImage} from "gatsby-plugin-image"
+import DescriptionIcon from '@mui/icons-material/Description';
 
 
 const Project = (props) => {
@@ -28,6 +28,12 @@ const Project = (props) => {
                         <Card.Title>{props.title}</Card.Title>
                     </div>
                     <div className="col-4 text-end">
+                        {props.docs &&
+                            <DescriptionIcon
+                                className="clickable-icon"
+                                onMouseDown={() => openInNewTab(props.docs)}
+                            />
+                        }
                         {props.github &&
                             <GitHubIcon
                                 className="clickable-icon"
