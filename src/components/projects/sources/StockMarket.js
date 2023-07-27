@@ -17,8 +17,7 @@ const StockMarketProject = () => {
                 {id: "react", name: "React"},
                 {id: "junit", name: "JUnit"},
                 {id: "mockito", name: "Mockito"},
-                {id: "docker", name: "Docker"},
-                {id: "tcp", name: "TCP"}
+                {id: "docker", name: "Docker"}
             ]}
             image={ProjectImage}>
             <Card.Text>
@@ -36,12 +35,11 @@ const StockMarketProject = () => {
 
                 </Card.Text>
                 <Card.Text>
-                    The main objectives involve implementing a message queue, and using this to build a
+                    The main objectives involve implementing a networked message queue, and using this to build a
                     simulation. They have to split the project into separate modules to enforce good separation of
                     concerns. Code-wise, the main focus is on design (i.e. writing maintainable/extensible/testable
                     code), and writing unit tests. The cool thing is that the nature of the assignment allows for an
                     amazing symphony of design patterns to be used.
-
                 </Card.Text>
             </ReadMore>
         </Project>

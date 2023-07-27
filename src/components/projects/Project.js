@@ -9,10 +9,20 @@ import DescriptionIcon from '@mui/icons-material/Description';
 
 const Project = (props) => {
 
+    const getLanguageBadge = (technologies) => {
+        return technologies.map(tech => {
+            return (
+                <Badge pill key={tech.id} className={`m-1 p-2 ${tech.id}`} bg="">
+                    {tech.name}
+                </Badge>
+            );
+        });
+    };
+
     const getTechBadge = (technologies) => {
         return technologies.map(tech => {
             return (
-                <Badge pill key={tech.id} className={`m-1`}>
+                <Badge pill key={tech.id} className={`m-1 p-2`}>
                     {tech.name}
                 </Badge>
             );
@@ -61,7 +71,7 @@ const Project = (props) => {
                     <ListGroup.Item>
                         <div className="row justify-content-center">
                             <div className="col-2 text-start">
-                                {getTechBadge(props.languages)}
+                                {getLanguageBadge(props.languages)}
                             </div>
 
                             <div className="col-10 text-end">

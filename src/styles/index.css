@@ -82,15 +82,15 @@ button.github:hover {
 }
 
 .c {
-    background-color: #A4B3C5;
+    background-color: #535962 !important;
 }
 
 .cpp {
-    background-color: #659ad2;
+    background-color: #05589f;
 }
 
 .pthreads {
-    background-color: #B63E97;
+    background-color: #835978;
 }
 
 .mpi {
@@ -106,11 +106,11 @@ button.github:hover {
 }
 
 .java {
-    background-color: #E11E23;
+    background-color: #f0931c;
 }
 
 .javascript {
-    background-color: #E4D04B;
+    background-color: #d7bc39;
 }
 
 .react {
@@ -143,4 +143,33 @@ button.github:hover {
 
 .docker {
     background-color: #228EE1;
+}
+
+.make {
+    background-color: #064d88;
+}
+
+.cmake {
+    background-color: #064d88;
+}
+
+.opencv {
+    background-color: #1189f7;
+}
+
+.bash {
+    background-color: #272e35;
+}
+
+.maven {
+    background-color: #064d88;
+
+}
+
+.junit {
+    background-color: #4e9a06;
+}
+
+.mockito {
+    background-color: #7da241;
 }
