@@ -13,9 +13,9 @@ const ConicSubdivisionProject = () => {
                 {id: "cpp", name: "C++"}
             ]}
             technologies={[
-                {id: "openmp", name: "OpenMP"},
                 {id: "qt", name: "Qt"},
                 {id: "opengl", name: "OpenGL"},
+                {id: "openmp", name: "OpenMP"},
                 {id: "cmake", name: "CMake"},
             ]}
             image={ProjectImage}>

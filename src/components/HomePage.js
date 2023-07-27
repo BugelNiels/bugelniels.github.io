@@ -13,20 +13,20 @@ const HomePage = () => {
             <div id="home" className="row justify-content-center p-5 secondary-comp">
                 <LandingPage />
             </div>
-            <div id="education" className="row justify-content-center p-5 ">
+            <div id="projects" className="row justify-content-center p-5 ">
                 <ProjectsPage/>
             </div>
             <div id="experience" className="row justify-content-center p-5 secondary-comp">
-                <AboutMe/>
-            </div>
-            <div id="projects" className="row justify-content-center p-5">
                 <ExperiencePage/>
             </div>
-            <div id="skills" className="row justify-content-center p-5 secondary-comp">
+            <div id="education" className="row justify-content-center p-5">
                 <EducationPage/>
             </div>
-            <div id="aboutme" className="row justify-content-center p-5">
+            <div id="skills" className="row justify-content-center p-5 secondary-comp">
                 <SkillsPage/>
+            </div>
+            <div id="aboutme" className="row justify-content-center p-5">
+                <AboutMe/>
             </div>
         </>
     );

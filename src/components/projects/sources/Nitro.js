@@ -13,23 +13,22 @@ const NitroProject = () => {
                 {id: "cpp", name: "C++"}
             ]}
             technologies={[
-                {id: "opengl", name: "OpenGL"},
-                {id: "bash", name: "Bash"},
                 {id: "qt", name: "Qt"},
+                {id: "opengl", name: "OpenGL"},
                 {id: "opencv", name: "OpenCV"},
                 {id: "cmake", name: "CMake"},
-                {id: "docker", name: "Docker"}
+                {id: "docker", name: "Docker"},
+                {id: "bash", name: "Bash"},
             ]}
             image={ProjectImage}
             github="https://github.com/BugelNiels/nitro"
             docs="https://bugelniels.github.io/nitro/">
             <Card.Text>
                 NITRO is a powerful tool for building complex image-processing routines in a non-destructive manner. The
-                project was developed with extensibility in mind, which means that it is easy to define custom nodes,
+                project was developed and designed with extensibility in mind, which means that it is easy to define custom nodes,
                 data types, or even custom GUI widgets.
             </Card.Text>
             <ReadMore>
-
                 <Card.Text>
                     At its core, NITRO is a visual node editor, meaning that the user can construct a custom graph of
                     nodes to create their own pipeline. When building a new image processing pipeline, one often uses
@@ -45,7 +44,7 @@ const NitroProject = () => {
                     NITRO was inspired by Blender’s Shader Editor given its user-friendliness and flexibility.
                 </Card.Text>
                 <Card.Text>
-                    The project was originally developed for my Master thesis at the University of
+                    The project was originally developed for my Master's thesis at the University of
                     Groningen. That is also the origin of the name NITRO: Niels' Image-processing Thesis on
                     Reconstruction Operations.
                 </Card.Text>

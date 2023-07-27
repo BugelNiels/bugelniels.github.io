@@ -1,8 +1,10 @@
 import React from 'react';
-import {ListGroupItem} from "react-bootstrap";
+import {ListGroupItem, Nav} from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
 import ReadMoreText from "../ReadMore";
 import Experience from "./Experience";
+import {Link as ScrollLink} from "react-scroll";
+import {Link} from "gatsby";
 
 
 const ExperiencePage = () => {
@@ -42,11 +44,27 @@ const ExperiencePage = () => {
                         employer="University of groningen"
                         employerLink="https://www.rug.nl/">
                 <p>
-                    Teaching Assistant for the following courses.
+                    Teaching Assistant (TA) for a large number of courses within the Computing Science programme.
                 </p>
                 <ReadMoreText>
                     <p>
-                        OOP is my baby
+
+                        <ul>
+                            <li>Designed course material, such as readers, assignments, frameworks, and tutorials.</li>
+                            <li>Gave lectures, tutorials, presentations, and lab sessions.</li>
+                            <li>Created schedules, grading schema and course pages.</li>
+                            <li>Coordinated TAs.</li>
+                            <li>Also did my fair share of grading.</li>
+                        </ul>
+
+                        Throughout my time at the University of Groningen, my primary focus was arguably more on the
+                        Teaching Assistant jobs than on studying. In particular, I have been the coordinator for
+                        Object-Oriented Programming and Advanced Object-Oriented Programming. For these courses, I wrote
+                        two separate readers (~80-page booklets containing the majority of the course material) in
+                        collaboration with two other TAs, designed and implemented new assignments, introduced tutorials
+                        in the form of live-coding sessions, created grading schemes, course schedules, lead meetings
+                        and coordinated the TA teams (upwards of 30 TAs at a time). I basically handled everything apart
+                        from the lecture content.
                     </p>
                     <p>
                         <h5>Bachelor Courses:</h5>
@@ -80,12 +98,18 @@ const ExperiencePage = () => {
                         employer="University of groningen"
                         employerLink="https://www.rug.nl/">
                 <p>
-                    Coordinator of the Numerus Fixus procedure for Computing Science. Also involved in streamlining
-                    the Numerus Fixus process on a faculty level.
-
+                    Coordinator of the Numerus Fixus procedure for Computing Science.
                 </p>
                 <ReadMoreText>
-                    Before this
+                    <ul>
+                        <li>Designed and wrote the selection tests.</li>
+                        <li>Organised an on-site training day and an on-site selection test.</li>
+                        <li>Gave webinar presentations.</li>
+                        <li>Coordinated a team of TAs during the evaluation process.</li>
+                    </ul>
+                    In my time here, I introduced numerous ways of streamlining and automating the process, with one of
+                    the main contributions being MATIG.
+                    Before the Numerus Fixus was introduced in 2020, this process was called Matching.
                 </ReadMoreText>
             </Experience>
             <Experience time="Oct 2020 - Jul 2022"
@@ -96,10 +120,11 @@ const ExperiencePage = () => {
                     Designed, built, and maintained MATIG: a system that simplifies the organisation and improves
                     the efficiency of the matching procedure for several studies at the Faculty of Science and
                     Engineering.
-                    MATIG was built using MongoDB, Express, React, NodeJS, Redis, and Kubernetes.
                 </p>
                 <ReadMoreText>
-                    Before this
+                    MATIG was built using Express.js, React, MongoDB, and Redis. It was deployed on the university servers using
+                    Kubernetes.
+                    See the <Link offset={-70} as={ScrollLink} to="#matig" smooth={true}> MATIG</Link> project.
                 </ReadMoreText>
             </Experience>
             <Experience time="Apr 2021 - Oct 2021"
@@ -107,8 +132,8 @@ const ExperiencePage = () => {
                         employer="University of groningen"
                         employerLink="https://www.rug.nl/">
                 <p>
-                    Responsible for adding a plagiarism scanning and reporting feature to the online grading system
-                    Themis.
+                    Laid the groundwork for a plagiarism scanning and reporting feature in the university's online
+                    grading system <a href="https://themis.housing.rug.nl/" target="_blank" rel="noopener noreferrer">Themis</a>.
                 </p>
             </Experience>
             <Experience time="Aug 2019 - Jan 2020"
@@ -116,7 +141,7 @@ const ExperiencePage = () => {
                         employer="University of groningen"
                         employerLink="https://www.rug.nl/">
                 <p>
-                    Responsible for mentoring a group of first year Computing Science Bachelor students to provide
+                    Mentored a group of first-year Computing Science Bachelor students to provide
                     guidance w.r.t. studying and university life.
                 </p>
             </Experience>

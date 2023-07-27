@@ -17,8 +17,8 @@ const JColorDialogProject = () => {
             image={ProjectImage}
             github="https://github.com/BugelNiels/JColorDialog">
             <Card.Text>
-                JColorDialog is meant as an improvement over the default JColorChooser. It provides a better looking
-                interface for picking colors.
+                A custom Java widget for choosing colors. JColorDialog is meant as an improvement over the default
+                JColorChooser. It primarily provides a more modern-looking interface.
             </Card.Text>
         </Project>
     );

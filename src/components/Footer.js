@@ -9,7 +9,8 @@ const Footer = () => {
 
             <div className="row d-flex justify-content-center p-3 mb-1">
                 <div className="col-2">
-                    <a href="mailto:bugel.niels@gmail.com" className="clickable-link">
+                    <a href="mailto:bugel.niels@gmail.com" target="_blank" rel="noopener noreferrer"
+                       className="clickable-link">
                         <MailIcon className="footer-icon"/> <span>bugel.niels@gmail.com</span>
                     </a>
                 </div>

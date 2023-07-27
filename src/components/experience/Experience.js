@@ -15,9 +15,9 @@ const Experience = (props) => {
                         </div>
                     </div>
                     <div className="col-12 text-start">
-                        <h5><a className="education-link"
+                        <p style={{fontSize: "larger"}}><a className="education-link"
                                href={props.employerLink} target="_blank"
-                               rel="noopener noreferrer">{props.employer}</a></h5>
+                               rel="noopener noreferrer">{props.employer}</a></p>
                     </div>
                     {props.children}
                 </div>

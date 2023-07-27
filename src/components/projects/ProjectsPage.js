@@ -40,7 +40,7 @@ const ProjectsPage = () => {
                 </div>
 
                 <div className="row justify-content-center">
-                    <div className="col-6">
+                    <div id="matig" className="col-6">
                         <MatigProject/>
                     </div>
                     <div className="col-6">

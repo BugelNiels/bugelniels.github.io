@@ -18,6 +18,7 @@ const CCheckmateProject = () => {
             github="https://github.com/BugelNiels/ccheckmate">
             <Card.Text>
                 CCheckmate is a simple unit testing framework for C. The main benefit of this framework is its simplicity. It is easy to use, easy to read and does not require any libraries.
+                Had a lot of fun with macros on this one.
             </Card.Text>
         </Project>
     );

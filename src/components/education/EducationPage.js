@@ -25,7 +25,7 @@ const EducationPage = () => {
                 <b>Awards & Activities:</b>
 
                 <ReadMoreText>
-                    <ListGroup>
+                    <ListGroup className="mt-3">
                         <ListGroupItem>
                             Best paper presentation award for the Student Colloquium course.
                         </ListGroupItem>

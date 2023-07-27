@@ -9,14 +9,14 @@ import {openInNewTab} from "../util/newTabOpener";
 
 const PersonalNavBar = () => {
     return (
-        <Navbar className="container-fluid" sticky="top" bg="dark" variant="dark" expand="lg">
+        <Navbar className="container-fluid" sticky="top" bg="light" variant="light" expand="lg">
             <Navbar.Toggle className="m-3" aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="m-auto">
                     <Nav.Link offset={-70} as={ScrollLink} to="home" smooth={true}>Home</Nav.Link>
-                    <Nav.Link offset={-70} as={ScrollLink} to="education" smooth={true}>Education</Nav.Link>
-                    <Nav.Link offset={-70} as={ScrollLink} to="experience" smooth={true}>Experience</Nav.Link>
                     <Nav.Link offset={-70} as={ScrollLink} to="projects" smooth={true}>Projects</Nav.Link>
+                    <Nav.Link offset={-70} as={ScrollLink} to="experience" smooth={true}>Experience</Nav.Link>
+                    <Nav.Link offset={-70} as={ScrollLink} to="education" smooth={true}>Education</Nav.Link>
                     <Nav.Link offset={-70} as={ScrollLink} to="skills" smooth={true}>Skills</Nav.Link>
                     <Nav.Link offset={-70} as={ScrollLink} to="aboutme" smooth={true}>About Me</Nav.Link>
                 </Nav>

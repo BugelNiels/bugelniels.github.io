@@ -40,7 +40,7 @@ const Project = (props) => {
                     <div className="col-4 text-end">
                         {props.docs &&
                             <DescriptionIcon
-                                className="clickable-icon"
+                                className="clickable-icon me-3"
                                 onMouseDown={() => openInNewTab(props.docs)}
                             />
                         }

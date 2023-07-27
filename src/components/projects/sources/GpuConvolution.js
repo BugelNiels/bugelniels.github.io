@@ -16,6 +16,7 @@ const GpuConvolutionProject = () => {
                 {id: "cuda", name: "CUDA"},
                 {id: "mpi", name: "MPI"},
                 {id: "pthreads", name: "pthreads"},
+                {id: "make", name: "Make"},
                 {id: "bash", name: "Bash"},
             ]}
             image={ProjectImage}
@@ -35,8 +36,8 @@ const GpuConvolutionProject = () => {
                     As the framework is designed for large
                     image data sets, IO is a major bottleneck. To ensure good performance here, it uses a
                     producer-consumer structure where a number of threads are continuously saving and loading images,
-                    while another thread is responsible for enqueing GPU tasks. It uses a buffer stack to ensure the
-                    host and device memory for the images does not have to continuously be re-allocated.
+                    while another thread is responsible for enqueuing GPU tasks. It uses a buffer stack to ensure the
+                    host and device memory for the images does not have to continuously be reallocated.
                     This entire pipeline is explained in the README of the repository.
                 </Card.Text>
             </ReadMore>

@@ -8,7 +8,7 @@ import ProfileIcon from "../images/me.jpg";
 const LandingPage = () => {
     return (
         <div className="row justify-content-center p-5">
-            <div className="col-6 col-lg-3 text-start align-items-center d-flex">
+            <div className="col-6 col-lg-4 text-start align-items-center d-flex">
                 <div className="row">
 
                     <div className="pt-5 pb-3">
@@ -21,17 +21,17 @@ const LandingPage = () => {
                     </p>
                     <div className="row justify-content-center mt-3">
                         <div className="col-12">
-                            <Button className="m-2"
+                            <Button className="me-4 mb-4"
                                     variant="primary"
-                                    onMouseDown={() => openInNewTab("https://github.com/BugelNiels")}>
+                                    onMouseDown={() => openInNewTab("downloads/resume_niels_bugel.pdf")}>
                                 <Download/> Download CV
                             </Button>
-                            <Button className="m-2"
+                            <Button className="me-4 mb-4"
                                     variant="secondary"
                                     onMouseDown={() => openInNewTab("https://github.com/BugelNiels")}>
                                 <GitHubIcon/> GitHub
                             </Button>
-                            <Button className="m-2"
+                            <Button className="me-4 mb-4"
                                     variant="secondary"
                                     onMouseDown={() => openInNewTab("https://www.linkedin.com/in/nielsbugel")}>
                                 <LinkedIn/> LinkedIn

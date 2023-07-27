@@ -19,9 +19,10 @@ const GpuSubdivisionProject = () => {
             image={ProjectImage}
             github="https://github.com/BugelNiels/parallel-gpu-catmull-clark-subdivision">
             <Card.Text>
-                A CUDA implementation of the method described in the paper: <a
-                href="https://doi.org/10.1111/cgf.14381"> A Halfedge Refinement Rule for Parallel Catmull-Clark
-                Subdivision</a>.
+                A command line tool to subdivide meshes using a CUDA implementation of the method described in the
+                paper:&nbsp;
+                <a href="https://doi.org/10.1111/cgf.14381" target="_blank" rel="noopener noreferrer">
+                    A Halfedge Refinement Rule for Parallel Catmull-Clark Subdivision</a>.
             </Card.Text>
 
             <ReadMore>
@@ -30,7 +31,7 @@ const GpuSubdivisionProject = () => {
                     project contains a CUDA implementation, as this allows for greater potential performance
                     improvements due to the flexibility of CUDA. The framework allows for the loading, refining and
                     saving of meshes. In addition to quad meshes, it also has support for non-quad meshes and meshes
-                    with boundary loops. The framework is a command line only tool, but could easily be integrated into
+                    with boundary loops. The framework is a commandline only tool, but could easily be integrated into
                     existing software.
                 </Card.Text>
             </ReadMore>

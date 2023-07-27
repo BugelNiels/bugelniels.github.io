@@ -28,7 +28,7 @@ const MatigProject = () => {
                 <Card.Text>
                     When I first started as a Teaching Assistant (TA) for the matching procedure, there was a significant amount of manual labour involved in the export process.
                     Initially, I created a spreadsheet (which evolved later on into a Java application) to automate this for myself, but I also wanted the other TAs to benefit from this.
-                    As such, I decided to built MATIG.
+                    As such, I built MATIG.
                 </Card.Text>
                 <Card.Text>
                     MATIG contains functionality for both the matching TAs and the coordinating team. It allows for full configuration of how scores should be calculated and exported.

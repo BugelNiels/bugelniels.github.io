@@ -66,7 +66,7 @@ const SkillsPage = () => {
                             "Java",
                             "Javascript",
                             "Python",
-                            "Bash",
+                            "SQL"
                         ]
                     )}
                 </div>
@@ -77,8 +77,9 @@ const SkillsPage = () => {
                                 [
                                     "CUDA",
                                     "OpenGL",
-                                    "Pthreads / OpenMP / MPI",
-                                    "Node.js / Express.js",
+                                    "Pthreads",
+                                    "MPI",
+                                    "Node.js",
                                     "React",
                                     "Qt",
                                 ]
@@ -111,7 +112,6 @@ const SkillsPage = () => {
                     )}
                 </div>
             </div>
-
         </>
     );
 };
