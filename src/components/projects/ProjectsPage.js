@@ -13,6 +13,8 @@ import JColorDialogProject from "./sources/JColorDialog";
 import BugElProject from "./sources/BugEl";
 import QtValueSliderProject from "./sources/QtValueSlider";
 import PersonalWebsiteProject from "./sources/PersonalWebsite";
+import StockMarketProject from "./sources/StockMarket";
+import FlapsProject from "./sources/Flaps";
 
 const ProjectsPage = () => {
 
@@ -78,6 +80,14 @@ const ProjectsPage = () => {
                     </div>
                     <div className="col-6">
                         <PersonalWebsiteProject/>
+                    </div>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col-6">
+                        <StockMarketProject/>
+                    </div>
+                    <div className="col-6">
+                        <FlapsProject/>
                     </div>
                 </div>
 

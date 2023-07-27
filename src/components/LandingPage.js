@@ -38,14 +38,12 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-1">
-            </div>
-            <div className="col-5 col-lg-3 text-start">
+            <div className="col-6 col-lg-3">
                 <img
-                    className="w-50"
+                    // className="w-50"
                     src={ProfileIcon}
                     alt="First slide"
-                    style={{borderRadius: "20px"}}
+                    style={{borderRadius: "20px", height: "400px"}}
                 />
             </div>
         </div>
