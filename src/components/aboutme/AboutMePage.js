@@ -8,11 +8,11 @@ import {SvgIcon} from "@mui/material";
 const EducationPage = () => {
     return (<>
         <div className="row justify-content-center p-5 section-title">
-            <div className="col-6">
+            <div className="col-12">
                 <h1>About me</h1>
             </div>
         </div>
-        <div className="row justify-content-center mt-5 p-5">
+        <div className="row justify-content-center mt-5 pt-5 pb-5">
             <div className="col-6 col-lg-3 text-start align-items-center d-flex">
                 <img
                     className="d-block w-100"
@@ -20,7 +20,7 @@ const EducationPage = () => {
                     alt="Me in Iceland :o"
                 />
             </div>
-            <div className="col-6 col-lg-3 text-start  align-items-center d-flex">
+            <div className="col-6 col-lg-3 text-start align-items-center d-flex">
                 <div>
                     <h5 className="pb-3 pt-3">I am someone who:</h5>
                     <ul>
@@ -36,7 +36,7 @@ const EducationPage = () => {
             </div>
 
         </div>
-        <div className="row justify-content-center p-5">
+        <div className="row justify-content-center pt-5 pb-5">
             <div className="col-6 col-lg-3 text-start align-items-center d-flex">
                 <div>
 

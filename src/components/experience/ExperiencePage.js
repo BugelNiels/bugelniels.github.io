@@ -34,8 +34,8 @@ const ExperiencePage = () => {
 
     return (
         <>
-            <div className="row justify-content-center p-5 section-title">
-                <div className="col-6">
+            <div className="row justify-content-center pb-5 pt-5 section-title">
+                <div className="col-12">
                     <h1>Work Experience</h1>
                 </div>
             </div>

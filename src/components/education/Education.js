@@ -2,11 +2,11 @@ import React from 'react'
 
 const Education = (props) => {
     return (
-        <div className="row justify-content-center p-5">
-            <div className="col-4 col-sm-4 col-md-4 col-lg-2 text-end mt-2">
+        <div className="row justify-content-center pt-5 pb-5">
+            <div className="col-3 col-lg-2 text-end mt-2">
                 {props.time}
             </div>
-            <div className="col-8 col-sm-8 col-md-8 col-lg-5 text-start">
+            <div className="col-9 col-lg-5 text-start">
                 <div className="row">
                     <div className="col-12 text-start">
                         <h3>{props.name}</h3>

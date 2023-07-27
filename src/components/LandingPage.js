@@ -7,7 +7,7 @@ import ProfileIcon from "../images/me.jpg";
 
 const LandingPage = () => {
     return (
-        <div className="row justify-content-center p-5">
+        <div className="row justify-content-center pt-5 pb-5">
             <div className="col-6 col-lg-4 text-start align-items-center d-flex">
                 <div className="row">
 
@@ -20,7 +20,7 @@ const LandingPage = () => {
                         High-Performance Computing and drinking water.
                     </p>
                     <div className="row justify-content-center mt-3">
-                        <div className="col-12">
+                        <div className="col-12 text-center">
                             <Button className="me-4 mb-4"
                                     variant="primary"
                                     onMouseDown={() => openInNewTab("downloads/resume_niels_bugel.pdf")}>

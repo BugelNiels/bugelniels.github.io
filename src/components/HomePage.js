@@ -10,22 +10,22 @@ import LandingPage from "./LandingPage";
 const HomePage = () => {
     return (
         <>
-            <div id="home" className="row justify-content-center p-5 secondary-comp">
+            <div id="home" className="row justify-content-center pt-5 pb-5 secondary-comp">
                 <LandingPage />
             </div>
-            <div id="projects" className="row justify-content-center p-5 ">
+            <div id="projects" className="row justify-content-center pt-5 pb-5 ">
                 <ProjectsPage/>
             </div>
-            <div id="experience" className="row justify-content-center p-5 secondary-comp">
+            <div id="experience" className="row justify-content-center pt-5 pb-5 secondary-comp">
                 <ExperiencePage/>
             </div>
-            <div id="education" className="row justify-content-center p-5">
+            <div id="education" className="row justify-content-center pt-5 pb-5">
                 <EducationPage/>
             </div>
-            <div id="skills" className="row justify-content-center p-5 secondary-comp">
+            <div id="skills" className="row justify-content-center pt-5 pb-5 secondary-comp">
                 <SkillsPage/>
             </div>
-            <div id="aboutme" className="row justify-content-center p-5">
+            <div id="aboutme" className="row justify-content-center pt-5 pb-5">
                 <AboutMe/>
             </div>
         </>

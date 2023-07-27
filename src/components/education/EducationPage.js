@@ -8,8 +8,8 @@ import ReadMoreText from "../ReadMore";
 const EducationPage = () => {
     return (
         <>
-            <div className="row justify-content-center p-5 section-title">
-                <div className="col-6">
+            <div className="row justify-content-center pt-5 pb-5 section-title">
+                <div className="col-12">
                     <h1>Education</h1>
                 </div>
             </div>
