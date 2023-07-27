@@ -1,0 +1,175 @@
+body, body * {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.centered-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.secondary-comp {
+    background-color: #f0f0f0;
+    border: 1px solid #dedede;
+}
+
+.large-icon {
+    font-size: 140px;
+}
+
+.section-title {
+}
+
+.clickable-icon {
+    cursor: pointer;
+}
+
+.clickable-icon:hover {
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.education-link {
+    text-decoration: none;
+}
+
+.clickable-link {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .clickable-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .clickable-link span {
+        display: none;
+    }
+}
+
+button.github {
+    background-color: #2b3137;
+    border: 1px solid #2b3137;
+}
+
+button.github:hover {
+    background-color: #424b54;
+    border: 1px solid #424b54;
+}
+
+.cuda {
+    background-color: #76b900;
+}
+
+.c {
+    background-color: #535962 !important;
+}
+
+.cpp {
+    background-color: #05589f;
+}
+
+.pthreads {
+    background-color: #835978;
+}
+
+.mpi {
+    background-color: #0056A8;
+}
+
+.openmp {
+    background-color: #096E77;
+}
+
+.opengl {
+    background-color: #517F9C;
+}
+
+.java {
+    background-color: #f0931c;
+}
+
+.javascript {
+    background-color: #d7bc39;
+}
+
+.react {
+    background-color: #00CDF2;
+}
+
+.nodejs {
+    background-color: #4F9640;
+}
+
+.express {
+    background-color: #7B7B7B;
+}
+
+.mongodb {
+    background-color: #118B4B;
+}
+
+.redis {
+    background-color: #BC2E29;
+}
+
+.kubernetes {
+    background-color: #2F66D9;
+}
+
+.qt {
+    background-color: #3EC34E;
+}
+
+.docker {
+    background-color: #228EE1;
+}
+
+.make {
+    background-color: #064d88;
+}
+
+.cmake {
+    background-color: #064d88;
+}
+
+.opencv {
+    background-color: #1189f7;
+}
+
+.bash {
+    background-color: #272e35;
+}
+
+.maven {
+    background-color: #064d88;
+
+}
+
+.junit {
+    background-color: #4e9a06;
+}
+
+.mockito {
+    background-color: #7da241;
+}
