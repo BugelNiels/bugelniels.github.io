@@ -12,7 +12,8 @@
     "start": "node_modules/.bin/gatsby develop",
     "build": "node_modules/.bin/gatsby build",
     "serve": "node_modules/.bin/gatsby serve",
-    "clean": "node_modules/.bin/gatsby clean"
+    "clean": "node_modules/.bin/gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -27,5 +28,8 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-scroll": "^1.8.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
