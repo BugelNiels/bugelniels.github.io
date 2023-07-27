@@ -8,7 +8,7 @@ const BugElProject = () => {
 
     return (
         <Project
-            title="Bug-El"
+            title="Bug-EL"
             languages={[
                 {id: "java", name: "Java"}
             ]}
@@ -18,7 +18,9 @@ const BugElProject = () => {
             image={ProjectImage}
             github="https://github.com/BugelNiels/bug-el">
             <Card.Text>
-                Custom Java Implementation of JUnit. Meant as a demo to demystify JUnit.
+                A custom Java Implementation of JUnit. Its primary goal was to give the students of <a
+                href="https://ocasys.rug.nl/2022-2023/catalog/course/WBCS001-05">Advanced Object-Oriented
+                Programming</a> some more information on how JUnit operates under the hood.
             </Card.Text>
         </Project>
     );

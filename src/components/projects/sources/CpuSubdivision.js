@@ -20,7 +20,9 @@ const CpuSubdivisionProject = () => {
             image={ProjectImage}
             github="https://github.com/BugelNiels/parallel-cpu-catmull-clark-subdivision">
             <Card.Text>
-                This framework contains the parallel CPU implementation of the method described in the paper: A Halfedge Refinement Rule for Parallel Catmull-Clark Subdivision.
+                An application containing the parallel CPU implementation of the method described in the paper: <a
+                href="https://doi.org/10.1111/cgf.14381"> A Halfedge Refinement Rule for Parallel Catmull-Clark
+                Subdivision</a>.
             </Card.Text>
         </Project>
     );

@@ -18,7 +18,7 @@ const PersonalWebsiteProject = () => {
             image={ProjectImage}
             github="https://github.com/BugelNiels/bugelniels.github.io">
             <Card.Text>
-                The website you are looking at right now :)
+                The website you are looking at right now.
             </Card.Text>
         </Project>
     );

@@ -10,14 +10,16 @@ const LandingPage = () => {
         <div className="row justify-content-center p-5">
             <div className="col-6 col-lg-3 text-start align-items-center d-flex">
                 <div className="row">
-                    <h1 className="pt-5 pb-5">Niels Bugel</h1>
-                    <p>
-                        Welcome to my website.
 
-                        Quick learner. I am useful not because of what I know now, but because of what I can
-                        know in a week.
+                    <div className="pt-5 pb-3">
+                        <h1>Niels Bugel</h1>
+                        <p style={{color: "grey", fontSize: "larger"}} >Developer by day, asleep by night</p>
+                    </div>
+                    <p style={{fontSize: "larger"}}>
+                        Hi there! I'm a software developer with a passion for Computer Graphics, Image-Processing,
+                        High-Performance Computing and drinking water.
                     </p>
-                    <div className="row justify-content-center mt-5">
+                    <div className="row justify-content-center mt-3">
                         <div className="col-12">
                             <Button className="m-2"
                                     variant="primary"

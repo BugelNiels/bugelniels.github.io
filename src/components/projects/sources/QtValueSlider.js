@@ -18,7 +18,7 @@ const QtValueSliderProject = () => {
             image={ProjectImage}
             github="https://github.com/BugelNiels/qt-value-slider">
             <Card.Text>
-                Implementation of a custom Qt widget for numbers similar to the number controls in Blender.
+               A custom Qt widget for numbers similar to the number controls in Blender.
             </Card.Text>
         </Project>
     );

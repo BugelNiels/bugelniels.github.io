@@ -26,6 +26,11 @@ const EducationPage = () => {
                 </div>
                 <div className="col-2">
                     <h5>99 runecrafting</h5>
+
+                    <p>
+                        Quick learner. I am useful not because of what I know now, but because of what I can
+                        know in a week.
+                    </p>
                 </div>
             </div>
 

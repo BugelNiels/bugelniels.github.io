@@ -19,8 +19,8 @@ const QuadricSubdivisionProject = () => {
             ]}
             image={ProjectImage}>
             <Card.Text>
-                Framework developed for viewing and subdividing 3D meshes using the newly developed quadric subdivision
-                method.
+                Application I developed for viewing and subdividing 3D meshes using a newly developed quadric
+                subdivision method. The remaining details are classified for now :-)
             </Card.Text>
         </Project>
     );
