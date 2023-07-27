@@ -8,12 +8,12 @@ import ProfileIcon from "../images/me.jpg";
 const LandingPage = () => {
     return (
         <div className="row justify-content-center pt-5 pb-5">
-            <div className="col-6 col-lg-4 text-start align-items-center d-flex">
+            <div className="col-6 col-lg-3 text-start align-items-center d-flex">
                 <div className="row">
 
                     <div className="pt-5 pb-3">
                         <h1>Niels Bugel</h1>
-                        <p style={{color: "grey", fontSize: "larger"}} >Developer by day, asleep by night</p>
+                        <p style={{color: "grey", fontSize: "larger"}}>Developer by day, asleep by night</p>
                     </div>
                     <p style={{fontSize: "larger"}}>
                         Hi there! I'm a software developer with a passion for Computer Graphics, Image-Processing,
@@ -41,12 +41,13 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className="col-6 col-lg-3">
-                <img
-                    // className="w-50"
-                    src={ProfileIcon}
-                    alt="First slide"
-                    style={{borderRadius: "20px", height: "400px"}}
-                />
+                <div className="image-container">
+                    <img
+                        className="d-block w-100 h-100"
+                        src={ProfileIcon}
+                        alt="Profile pic"
+                    />
+                </div>
             </div>
         </div>
     );

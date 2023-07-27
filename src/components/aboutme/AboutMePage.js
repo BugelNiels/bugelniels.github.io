@@ -14,11 +14,13 @@ const EducationPage = () => {
         </div>
         <div className="row justify-content-center mt-5 pt-5 pb-5">
             <div className="col-6 col-lg-3 text-start align-items-center d-flex">
-                <img
-                    className="d-block w-100"
-                    src={TravelIcon}
-                    alt="Me in Iceland :o"
-                />
+                <div className="image-container">
+                    <img
+                        className="d-block w-100"
+                        src={TravelIcon}
+                        alt="Me in Iceland :o"
+                    />
+                </div>
             </div>
             <div className="col-6 col-lg-3 text-start align-items-center d-flex">
                 <div>
@@ -74,11 +76,13 @@ const EducationPage = () => {
             </div>
 
             <div className="col-6 col-lg-3 text-start align-items-center d-flex">
-                <img
-                    className="d-block w-100"
-                    src={RenderIcon}
-                    alt="Cool render"
-                />
+                <div className="image-container">
+                    <img
+                        className="d-block w-100 h-100"
+                        src={RenderIcon}
+                        alt="Cool render"
+                    />
+                </div>
             </div>
         </div>
     </>);

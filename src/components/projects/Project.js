@@ -62,7 +62,7 @@ const Project = (props) => {
                         <Card.Img variant="top"
                                   src={props.image}
                                   alt={props.title}
-                                  style={{maxHeight: "512px", borderRadius: "10px"}}/>
+                                  style={{maxHeight: "512px", borderRadius: "20px"}}/>
 
                     </ListGroup.Item>}
                     <ListGroup.Item className="text-start">
