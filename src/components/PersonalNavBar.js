@@ -4,7 +4,6 @@ import MailIcon from "@mui/icons-material/Mail";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import {Link as ScrollLink} from 'react-scroll';
-import {openInNewTab} from "../util/newTabOpener";
 import {useState} from "react";
 
 
@@ -45,18 +44,18 @@ const PersonalNavBar = () => {
                 </Nav>
             </Navbar.Collapse>
             <Navbar.Brand className="ms-auto">
-                <GitHubIcon
-                    className="clickable-icon me-2"
-                    onMouseDown={() => openInNewTab("https://github.com/BugelNiels")}
-                />
-                <LinkedInIcon
-                    className="clickable-icon me-2"
-                    onMouseDown={() => openInNewTab("https://www.linkedin.com/in/nielsbugel")}
-                />
-                <MailIcon
-                    className="clickable-icon me-2"
-                    onMouseDown={() => openInNewTab("mailto:bugel.niels@gmail.com")}
-                />
+                <a href="https://github.com/BugelNiels" target="_blank" rel="noopener noreferrer"
+                   className="clickable-link me-2">
+                    <GitHubIcon className="footer-icon"/>
+                </a>
+                <a href="https://www.linkedin.com/in/nielsbugel" target="_blank" rel="noopener noreferrer"
+                   className="clickable-link me-2">
+                    <LinkedInIcon className="footer-icon"/>
+                </a>
+                <a href="mailto:bugel.niels@gmail.com" target="_blank" rel="noopener noreferrer"
+                   className="clickable-link me-2">
+                    <MailIcon className="footer-icon"/>
+                </a>
             </Navbar.Brand>
         </Navbar>
     )

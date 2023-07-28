@@ -1,9 +1,8 @@
 import React from 'react';
-import {openInNewTab} from "../util/newTabOpener";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Button from "react-bootstrap/Button";
 import {Download, LinkedIn} from "@mui/icons-material";
-import ProfileIcon from "../images/me.jpg";
+import {StaticImage} from "gatsby-plugin-image";
 
 const LandingPage = () => {
     return (
@@ -22,19 +21,22 @@ const LandingPage = () => {
                         <div className="col-12 ">
                             <Button className="mb-4"
                                     variant="primary"
-                                    onMouseDown={() => openInNewTab("downloads/resume_niels_bugel.pdf")}>
+                                    href="downloads/resume_niels_bugel.pdf"
+                                    target="_blank" rel="noopener noreferrer">
                                 <Download/> Download CV
                             </Button>
                         </div>
                         <div className="col-12">
                             <Button className="me-4 mb-4"
                                     variant="secondary"
-                                    onMouseDown={() => openInNewTab("https://github.com/BugelNiels")}>
+                                    href="https://github.com/BugelNiels"
+                                    target="_blank" rel="noopener noreferrer">
                                 <GitHubIcon/> GitHub
                             </Button>
                             <Button className="mb-4"
                                     variant="secondary"
-                                    onMouseDown={() => openInNewTab("https://www.linkedin.com/in/nielsbugel")}>
+                                    href="https://www.linkedin.com/in/nielsbugel"
+                                    target="_blank" rel="noopener noreferrer">
                                 <LinkedIn/> LinkedIn
                             </Button>
                         </div>
@@ -43,11 +45,12 @@ const LandingPage = () => {
             </div>
             <div className="col-12 col-lg-3 order-1 order-lg-2">
                 <div className="image-container">
-                    <img
+                    <StaticImage
                         className="w-50 h-100"
-
-                        src={ProfileIcon}
-                        alt="Profile pic"
+                        src="../images/me.jpg"
+                        alt="Photo"
+                        placeholder="blurred"
+                        layout="constrained"
                     />
                 </div>
             </div>

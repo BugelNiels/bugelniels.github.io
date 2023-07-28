@@ -55,6 +55,14 @@ code {
     border-radius: 20px;
 }
 
+.read-more-link {
+    color: #126ffd;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
 .center-aligned-left-lg {
     text-align: center;
 }

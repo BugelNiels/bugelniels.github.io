@@ -15,7 +15,6 @@ import QtValueSliderProject from "./sources/QtValueSlider";
 import PersonalWebsiteProject from "./sources/PersonalWebsite";
 import StockMarketProject from "./sources/StockMarket";
 import FlapsProject from "./sources/Flaps";
-import ShowMore from "../ShowMore";
 import ShowMoreButton from "../ShowMore";
 
 const ProjectsPage = () => {

@@ -21,8 +21,13 @@ const ConicSubdivisionProject = () => {
             image={ProjectImage}>
             <Card.Text>
                 A tool developed for manipulating and subdividing curves using a newly developed conic subdivision method.
-                The remaining details are classified for now :-)
+                Its main purpose is to quickly test and prototype various different approaches.
             </Card.Text>
+            <ReadMore>
+                <Card.Text>
+                    The remaining details are classified for now :-)
+                </Card.Text>
+            </ReadMore>
         </Project>
     );
 };

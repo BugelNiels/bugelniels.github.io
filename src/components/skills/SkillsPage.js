@@ -2,6 +2,7 @@ import React from 'react';
 import CodeIcon from '../../images/icons/languages.svg';
 import AppsIcon from '../../images/icons/apps.svg';
 import SettingsIcon from '../../images/icons/frameworks.svg';
+import {StaticImage} from "gatsby-plugin-image";
 
 const SkillsPage = () => {
 
