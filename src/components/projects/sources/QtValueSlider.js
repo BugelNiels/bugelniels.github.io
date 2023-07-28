@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
-import ProjectImage from "../../../images/projects/valuesliders.png";
+import ProjectImage from "../../../images/projects/valuesliders.webp";
 
 const QtValueSliderProject = () => {
 
@@ -18,7 +18,7 @@ const QtValueSliderProject = () => {
             image={ProjectImage}
             github="https://github.com/BugelNiels/qt-value-slider">
             <Card.Text>
-               A custom Qt widget for numbers similar to the number controls in Blender.
+                A custom Qt widget for numbers similar to the number controls in Blender.
             </Card.Text>
         </Project>
     );

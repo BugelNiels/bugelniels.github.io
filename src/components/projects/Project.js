@@ -1,10 +1,9 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import {openInNewTab} from '../../util/newTabOpener';
 import Badge from "react-bootstrap/Badge";
-import DescriptionIcon from '@mui/icons-material/Description';
+import GitHubIcon from "../icons/GitHubIcon";
+import DocsIcon from "../icons/DocsIcon";
 
 
 const Project = (props) => {
@@ -39,16 +38,16 @@ const Project = (props) => {
                     </div>
                     <div className="col-4 text-end">
                         {props.docs &&
-                            <DescriptionIcon
-                                className="clickable-icon me-3"
-                                onMouseDown={() => openInNewTab(props.docs)}
-                            />
+                            <a href={props.docs} target="_blank" rel="noopener noreferrer"
+                               className="clickable-link me-3" style={{fontSize: "larger"}}>
+                                <DocsIcon className="footer-icon"/>
+                            </a>
                         }
                         {props.github &&
-                            <GitHubIcon
-                                className="clickable-icon"
-                                onMouseDown={() => openInNewTab(props.github)}
-                            />
+                            <a href={props.github} target="_blank" rel="noopener noreferrer"
+                               className="clickable-link me-3">
+                                <GitHubIcon className="footer-icon"/>
+                            </a>
                         }
                     </div>
 
@@ -58,13 +57,13 @@ const Project = (props) => {
 
             <Card.Body>
                 <ListGroup variant="flush">
-                    {props.image && <ListGroup.Item className="text-start">
-                        <Card.Img variant="top"
-                                  src={props.image}
-                                  alt={props.title}
-                                  style={{maxHeight: "512px", borderRadius: "10px"}}/>
-
-                    </ListGroup.Item>}
+                    {props.image &&
+                        <ListGroup.Item className="text-start">
+                            <Card.Img variant="top"
+                                      src={props.image}
+                                      alt={props.title}
+                                      style={{maxHeight: "512px", borderRadius: "20px"}}/>
+                        </ListGroup.Item>}
                     <ListGroup.Item className="text-start">
                         {props.children}
                     </ListGroup.Item>

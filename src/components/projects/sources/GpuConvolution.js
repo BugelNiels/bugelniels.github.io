@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
-import ProjectImage from "../../../images/projects/convolution.png";
+import ProjectImage from "../../../images/projects/convolution.webp";
 import ReadMore from "../../ReadMore";
 
 const GpuConvolutionProject = () => {
