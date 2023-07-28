@@ -5,13 +5,13 @@ const Experience = (props) => {
     return (
         <>
             <div className="row justify-content-center pt-5 pb-5">
-                <div className="col-3 col-lg-2 text-end mt-2">
+                <div className="col-12 col-lg-2 time-period mt-2 sub-text">
                     {props.time}
                 </div>
-                <div className="col-9 col-lg-5 text-start">
+                <div className="col-12 col-lg-5 text-start">
                     <div className="row">
                         <div className="col-12 text-start">
-                            <h3>{props.title}</h3>
+                            <h4>{props.title}</h4>
                         </div>
                     </div>
                     <div className="col-12 text-start">

@@ -1,15 +1,17 @@
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 
 // TODO: move to stylesheet
 const ReadMoreText = (props) => {
     const [isExpanded, setIsExpanded] = useState(false);
+    const startRef = useRef(null);
 
     const toggleReadMore = () => {
         setIsExpanded(!isExpanded);
+        startRef.current.scrollIntoView({behavior: 'smooth', block: 'start'});
     };
 
     return (
-        <div>
+        <div ref={startRef}>
             <p>
                 {isExpanded && props.children}
             </p>

@@ -2,7 +2,7 @@ import React from 'react'
 import {openInNewTab} from "../../util/newTabOpener";
 import Button from "react-bootstrap/Button";
 import RenderIcon from '../../images/blender.jpg';
-import TravelIcon from '../../images/travel.jpg';
+import TravelIcon from '../../images/travel_cropped.jpg';
 import {SvgIcon} from "@mui/material";
 
 const EducationPage = () => {
@@ -13,7 +13,7 @@ const EducationPage = () => {
             </div>
         </div>
         <div className="row justify-content-center mt-5 pt-5 pb-5">
-            <div className="col-6 col-lg-3 text-start align-items-center d-flex">
+            <div className="col-12 col-lg-3 text-start align-items-center d-flex">
                 <div className="image-container">
                     <img
                         className="d-block w-100"
@@ -22,10 +22,10 @@ const EducationPage = () => {
                     />
                 </div>
             </div>
-            <div className="col-6 col-lg-3 text-start align-items-center d-flex">
+            <div className="col-12 col-lg-3 align-items-center d-flex">
                 <div>
-                    <h5 className="pb-3 pt-3">I am someone who:</h5>
-                    <ul>
+                    <h5 className="pb-3 pt-3 left-aligned ">I am someone who:</h5>
+                    <ul className="text-start">
                         <li>learns extremely quickly</li>
                         <li>can easily integrate within your team</li>
                         <li>loves to give presentations and be involved</li>
@@ -39,18 +39,17 @@ const EducationPage = () => {
 
         </div>
         <div className="row justify-content-center pt-5 pb-5">
-            <div className="col-6 col-lg-3 text-start align-items-center d-flex">
+            <div className="col-12 col-lg-3 align-items-center d-flex order-2 order-lg-1">
                 <div>
-
-                    <h5 className="pb-3 pt-3">Render Enthusiast</h5>
-                    <p>
+                    <h5 className="pb-3 pt-3 left-aligned ">Render Enthusiast</h5>
+                    <p className="text-start">
                         I have always had a fascination with VFX and realistic renders, which started when I
                         first picked up Blender around 10 years ago. Since then, I have been working with
                         Blender and learning quite a few tricks of the trade (although I still have much
                         left to learn). If you are curious, check out my ArtStation below. I periodically try and post
                         some renders there.
                     </p>
-                    <div className="row justify-content-center p-1">
+                    <div className="row left-aligned  p-1">
                         <div className="col-12">
                             <Button variant="primary"
                                     onMouseDown={() => openInNewTab("https://www.artstation.com/bugelniels")}>
@@ -75,7 +74,7 @@ const EducationPage = () => {
                 </div>
             </div>
 
-            <div className="col-6 col-lg-3 text-start align-items-center d-flex">
+            <div className="col-12 col-lg-3 text-start align-items-center d-flex order-1 order-lg-2">
                 <div className="image-container">
                     <img
                         className="d-block w-100 h-100"

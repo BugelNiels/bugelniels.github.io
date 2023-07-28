@@ -12,17 +12,16 @@ const ExperiencePage = () => {
     const course = (name, times, special, courseCode, year = "current") => {
         return <ListGroupItem>
             <div className="row">
-
-                <div className="col-6">
-                    {name}
-                </div>
-                <div className="col-2">
+                <div className="col-1">
                     {times && times + "x"}
                 </div>
-                <div className="col-2">
+                <div className="col-4">
+                    {name}
+                </div>
+                <div className="col-3 text-center">
                     {special}
                 </div>
-                <div className="col-2 text-end">
+                <div className="col-4 text-end">
                     <a className="education-link"
                        href={"https://ocasys.rug.nl/" + year + "/catalog/course/" + courseCode} target="_blank"
                        rel="noopener noreferrer">{courseCode}</a>
@@ -63,8 +62,7 @@ const ExperiencePage = () => {
                         two separate readers (~80-page booklets containing the majority of the course material) in
                         collaboration with two other TAs, designed and implemented new assignments, introduced tutorials
                         in the form of live-coding sessions, created grading schemes, course schedules, lead meetings
-                        and coordinated the TA teams (upwards of 30 TAs at a time). I basically handled everything apart
-                        from the lecture content.
+                        and coordinated the TA teams (upwards of 30 TAs at a time).
                     </p>
                     <p>
                         <h5>Bachelor Courses:</h5>

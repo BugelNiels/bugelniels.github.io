@@ -5,6 +5,7 @@ body, body * {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-margin-top: 100px;
 }
 
 code {
@@ -27,6 +28,16 @@ code {
     border: 1px solid #dedede;
 }
 
+.sub-text {
+    color: #7c7c7c;
+    font-size: large;
+}
+
+.sub-title {
+    color: #4d4d4d;
+    font-size: large;
+}
+
 .large-icon {
     font-size: 140px;
 }
@@ -44,12 +55,48 @@ code {
     border-radius: 20px;
 }
 
-.clickable-icon {
-    cursor: pointer;
+.center-aligned-left-lg {
+    text-align: center;
 }
 
-.clickable-icon:hover {
+@media (min-width: 768px) {
+    .center-aligned-left-lg {
+        text-align: left;
+    }
+}
 
+.right-aligned {
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    .right-aligned {
+        text-align: right;
+    }
+}
+
+.left-aligned {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .left-aligned {
+        text-align: left;
+    }
+}
+
+.time-period {
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .time-period {
+        text-align: right;
+    }
+}
+
+.clickable-icon {
+    cursor: pointer;
 }
 
 .main-container {

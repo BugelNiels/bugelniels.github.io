@@ -15,6 +15,8 @@ import QtValueSliderProject from "./sources/QtValueSlider";
 import PersonalWebsiteProject from "./sources/PersonalWebsite";
 import StockMarketProject from "./sources/StockMarket";
 import FlapsProject from "./sources/Flaps";
+import ShowMore from "../ShowMore";
+import ShowMoreButton from "../ShowMore";
 
 const ProjectsPage = () => {
 
@@ -56,40 +58,44 @@ const ProjectsPage = () => {
                     </div>
                 </div>
 
-                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-6">
-                        <QuadricSubdivisionProject/>
-                    </div>
-                    <div className="col-12 col-lg-6">
-                        <CpuSubdivisionProject/>
-                    </div>
-                </div>
+                <ShowMoreButton>
 
-                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-6">
-                        <ImprocCProject/>
-                    </div>
-                    <div className="col-12 col-lg-6">
-                        <CCheckmateProject/>
-                    </div>
-                </div>
 
-                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-6">
-                        <JColorDialogProject/>
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-lg-6">
+                            <QuadricSubdivisionProject/>
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <CpuSubdivisionProject/>
+                        </div>
                     </div>
-                    <div className="col-12 col-lg-6">
-                        <BugElProject/>
+
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-lg-6">
+                            <ImprocCProject/>
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <CCheckmateProject/>
+                        </div>
                     </div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-6">
-                        <QtValueSliderProject/>
+
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-lg-6">
+                            <JColorDialogProject/>
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <BugElProject/>
+                        </div>
                     </div>
-                    <div className="col-12 col-lg-6">
-                        <PersonalWebsiteProject/>
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-lg-6">
+                            <QtValueSliderProject/>
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <PersonalWebsiteProject/>
+                        </div>
                     </div>
-                </div>
+                </ShowMoreButton>
             </div>
         </>
     );

@@ -15,13 +15,11 @@ const EducationPage = () => {
             </div>
 
             <Education time="Sep 2020 - Jul 2023"
-                       name="Master Computing Science"
+                       name="MSc. in Computing Science"
+                       subName="Data Science & Systems Complexity"
                        institution="University of groningen"
                        programmeLink="https://www.rug.nl/masters/computing-science/?lang=en"
                        GPA="9.0/10.0 - Cum Laude">
-                <p>
-                    <b>Track:</b> Data Science & Systems Complexity
-                </p>
                 <b>Awards & Activities:</b>
 
                 <ReadMoreText>
@@ -53,7 +51,7 @@ const EducationPage = () => {
 
 
             <Education time="Sep 2017 - Jul 2020"
-                       name="Bachelor Computing Science"
+                       name="BSc. in Computing Science"
                        institution="University of groningen"
                        programmeLink="https://www.rug.nl/bachelors/computing-science/?lang=en"
                        GPA="8.8/10.0 - Cum Laude">
