@@ -9,7 +9,9 @@ const ShowMoreButton = (props) => {
 
     const toggleShowMore = () => {
         setIsExpanded(!isExpanded);
-        startRef.current.scrollIntoView({behavior: 'smooth', block: 'start'});
+        if (isExpanded) {
+            startRef.current.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
     };
 
     return (

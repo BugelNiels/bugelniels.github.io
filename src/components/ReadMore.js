@@ -7,7 +7,9 @@ const ReadMoreText = (props) => {
 
     const toggleReadMore = () => {
         setIsExpanded(!isExpanded);
-        startRef.current.scrollIntoView({behavior: 'smooth', block: 'start'});
+        if(isExpanded) {
+            startRef.current.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+        }
     };
 
     return (
