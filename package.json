@@ -13,7 +13,7 @@
     "build": "node_modules/.bin/gatsby build",
     "serve": "node_modules/.bin/gatsby serve",
     "clean": "node_modules/.bin/gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d -f public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "bootstrap": "^5.3.1",
