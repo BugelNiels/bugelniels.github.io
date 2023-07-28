@@ -8,19 +8,19 @@ const Footer = () => {
         <div className="footer container-fluid secondary-comp p-5">
 
             <div className="row d-flex justify-content-center p-3 mb-1">
-                <div className="col-2">
+                <div className="col-4 col-lg-2">
                     <a href="mailto:bugel.niels@gmail.com" target="_blank" rel="noopener noreferrer"
                        className="clickable-link">
                         <MailIcon className="footer-icon"/> <span>bugel.niels@gmail.com</span>
                     </a>
                 </div>
-                <div className="col-2">
+                <div className="col-4 col-lg-2">
                     <a href="https://github.com/BugelNiels" target="_blank" rel="noopener noreferrer"
                        className="clickable-link">
                         <GitHubIcon className="footer-icon"/> <span>BugelNiels</span>
                     </a>
                 </div>
-                <div className="col-2">
+                <div className="col-4 col-lg-2">
                     <a href="https://www.linkedin.com/in/nielsbugel" target="_blank" rel="noopener noreferrer"
                        className="clickable-link">
                         <LinkedInIcon className="footer-icon"/> <span>Niels Bugel</span>

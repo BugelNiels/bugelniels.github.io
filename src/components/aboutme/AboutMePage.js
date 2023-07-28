@@ -10,7 +10,7 @@ const EducationPage = () => {
                 <h1>About me</h1>
             </div>
         </div>
-        <div className="row justify-content-center mt-5 pt-5 pb-5">
+        <div className="row justify-content-center mb-5 pt-5 pb-5">
             <div className="col-12 col-lg-3 ">
                 <div className="image-container">
                     <StaticImage
@@ -24,7 +24,7 @@ const EducationPage = () => {
             </div>
             <div className="col-12 col-lg-3 align-items-center d-flex">
                 <div>
-                    <h5 className="pb-3 pt-3 left-aligned ">Who am I?</h5>
+                    <h5 className="pb-3 pt-3 center-aligned-left-lg">Who am I?</h5>
                     <p className="text-start">
                         I am someone who is active and involved; I always try to spot (and implement) improvements
                         wherever possible. The TA jobs provided me with an excellent opportunity to learn further beyond
@@ -43,10 +43,10 @@ const EducationPage = () => {
             </div>
 
         </div>
-        <div className="row justify-content-center pt-5 pb-5">
+        <div className="row justify-content-center mt-5 mb-5 pt-5 pb-5">
             <div className="col-12 col-lg-3 align-items-center d-flex order-2 order-lg-1">
                 <div>
-                    <h5 className="pb-3 pt-3 left-aligned ">Render Enthusiast</h5>
+                    <h5 className="pb-3 pt-3 center-aligned-left-lg">Render Enthusiast</h5>
                     <p className="text-start">
                         I have always had a fascination with VFX and realistic renders, which started when I
                         first picked up Blender around 10 years ago. Since then, I have been working with
@@ -54,7 +54,7 @@ const EducationPage = () => {
                         left to learn). If you are curious, check out my ArtStation below. I periodically try and post
                         some renders there.
                     </p>
-                    <div className="row left-aligned  p-1">
+                    <div className="row center-aligned-left-lg p-1">
                         <div className="col-12">
                             <Button variant="primary"
                                     href="https://www.artstation.com/bugelniels"

@@ -130,7 +130,7 @@ const ExperiencePage = () => {
                 MATIG was built using Express.js, React, MongoDB, and Redis. It was deployed on the university
                 servers using
                 Kubernetes.
-                See the <Link offset={-70} as={ScrollLink} to="#matig" smooth={true}> MATIG</Link> project.
+                See the <Link className="education-link"  offset={-70} as={ScrollLink} to="#matig" smooth={true}> MATIG</Link> project.
             </ReadMoreText>
         </Experience>
         <Experience time="Apr 2021 - Oct 2021"
@@ -139,7 +139,7 @@ const ExperiencePage = () => {
                     employerLink="https://www.rug.nl/">
             <p>
                 Laid the groundwork for a plagiarism scanning and reporting feature in the university's online
-                grading system <a href="https://themis.housing.rug.nl/" target="_blank"
+                grading system <a className="education-link" href="https://themis.housing.rug.nl/" target="_blank"
                                   rel="noopener noreferrer">Themis</a>.
             </p>
         </Experience>

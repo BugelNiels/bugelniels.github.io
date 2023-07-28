@@ -8,19 +8,12 @@ body, body * {
     scroll-margin-top: 100px;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.centered-caption {
+.main-container {
+    text-align: center;
+    color: hsl(220, 13%, 20%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    font-size: xxx-large;
-    font-weight: bold;
+    min-height: 100vh;
 }
 
 .secondary-comp {
@@ -36,10 +29,6 @@ code {
 .sub-title {
     color: #4d4d4d;
     font-size: large;
-}
-
-.large-icon {
-    font-size: 140px;
 }
 
 .image-container {
@@ -73,26 +62,6 @@ code {
     }
 }
 
-.right-aligned {
-    text-align: right;
-}
-
-@media (min-width: 768px) {
-    .right-aligned {
-        text-align: right;
-    }
-}
-
-.left-aligned {
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    .left-aligned {
-        text-align: left;
-    }
-}
-
 .time-period {
     text-align: left;
 }
@@ -103,47 +72,24 @@ code {
     }
 }
 
-.clickable-icon {
-    cursor: pointer;
-}
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 .education-link {
     text-decoration: none;
 }
 
 .clickable-link {
     overflow: hidden;
+    color: hsl(220, 13%, 20%);
+    text-decoration: none;
+}
+
+.clickable-link:hover {
+    color: hsl(220, 13%, 40%);
 }
 
 @media (max-width: 767px) {
-    .clickable-link {
-        display: flex;
-        align-items: center;
-    }
-
     .clickable-link span {
         display: none;
     }
-}
-
-button.github {
-    background-color: #2b3137;
-    border: 1px solid #2b3137;
-}
-
-button.github:hover {
-    background-color: #424b54;
-    border: 1px solid #424b54;
-}
-
-.cuda {
-    background-color: #76b900;
 }
 
 .c {
@@ -154,22 +100,6 @@ button.github:hover {
     background-color: #05589f;
 }
 
-.pthreads {
-    background-color: #835978;
-}
-
-.mpi {
-    background-color: #0056A8;
-}
-
-.openmp {
-    background-color: #096E77;
-}
-
-.opengl {
-    background-color: #517F9C;
-}
-
 .java {
     background-color: #f0931c;
 }
@@ -178,63 +108,26 @@ button.github:hover {
     background-color: #d7bc39;
 }
 
-.react {
-    background-color: #00CDF2;
+.navbar {
+    margin: 0 auto;
+    text-align: center;
 }
 
-.nodejs {
-    background-color: #4F9640;
+.nav-link {
+    padding: 13px 40px 13px !important;
+    margin: 0 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.express {
-    background-color: #7B7B7B;
+.nav-link:hover {
+    background-color: hsl(220, 13%, 94%);
 }
 
-.mongodb {
-    background-color: #118B4B;
+.material-icons {
+    margin: auto;
 }
 
-.redis {
-    background-color: #BC2E29;
-}
-
-.kubernetes {
-    background-color: #2F66D9;
-}
-
-.qt {
-    background-color: #3EC34E;
-}
-
-.docker {
-    background-color: #228EE1;
-}
-
-.make {
-    background-color: #064d88;
-}
-
-.cmake {
-    background-color: #064d88;
-}
-
-.opencv {
-    background-color: #1189f7;
-}
-
-.bash {
-    background-color: #272e35;
-}
-
-.maven {
-    background-color: #064d88;
-
-}
-
-.junit {
-    background-color: #4e9a06;
-}
-
-.mockito {
-    background-color: #7da241;
+.footer-icon {
+    transform: scale(1.0);
 }
