@@ -1,10 +1,10 @@
 import * as React from "react"
 import {Nav, Navbar} from "react-bootstrap";
-import MailIcon from "@mui/icons-material/Mail";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import {Link as ScrollLink} from 'react-scroll';
 import {useState} from "react";
+import MailIcon from "./icons/MailIcon";
+import LinkedInIcon from "./icons/LinkedInIcon";
+import GitHubIcon from "./icons/GitHubIcon";
 
 
 const PersonalNavBar = () => {

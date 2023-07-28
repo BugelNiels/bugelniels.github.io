@@ -16,6 +16,10 @@ body, body * {
     min-height: 100vh;
 }
 
+.svg-icon svg path{
+    fill: red !important;
+}
+
 .secondary-comp {
     background-color: #f0f0f0;
     border: 1px solid #dedede;

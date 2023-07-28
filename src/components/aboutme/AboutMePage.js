@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from "react-bootstrap/Button";
-import {SvgIcon} from "@mui/material";
 import {StaticImage} from "gatsby-plugin-image";
+import ArtStationIcon from "../icons/ArtStationIcon";
 
 const EducationPage = () => {
     return (<>
@@ -15,7 +15,7 @@ const EducationPage = () => {
                 <div className="image-container">
                     <StaticImage
                         className="w-100 h-100"
-                        src="../../images/travel_cropped.jpg"
+                        src="../../images/iceland.webp"
                         alt="Me in Iceland :o"
                         placeholder="blurred"
                         layout="constrained"
@@ -37,7 +37,8 @@ const EducationPage = () => {
                         reading. I'm heading to New Zealand for 3 months at the end of August; a trip which may been
                         slightly inspired by the Lord of the Rings. It goes without saying that I'm also a big fan of
                         modern-day luxuries such as water and sleep. I like to think that I have convinced quite a few
-                        students to sleep more as this seems to be a somewhat problematic area for a lot of CS students :)
+                        students to sleep more as this seems to be a somewhat problematic area for a lot of CS students
+                        :)
                     </p>
                 </div>
             </div>
@@ -59,21 +60,7 @@ const EducationPage = () => {
                             <Button variant="primary"
                                     href="https://www.artstation.com/bugelniels"
                                     target="_blank" rel="noopener noreferrer">
-
-                                <SvgIcon>
-                                    {/* credit: plus icon from https://heroicons.com/ */}
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="currentColor"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth={0}
-                                        stroke="currentColor">
-                                        <path
-                                            strokeLinejoin="round"
-                                            d="M15.153,16.996l2.288,3.963c0,0 -4.952,0 -8.808,0c-2.758,0 -5.299,-1.499 -6.633,-3.913c0,-0.001 0,-0.001 0,-0.001l0.029,-0.049l13.124,0Zm-4.798,-13.955c0,0 0,0 0,0c2.781,0 5.357,1.463 6.782,3.852c1.172,1.965 2.593,4.349 3.764,6.312c1.418,2.378 1.467,5.33 0.128,7.753c0,0.001 0,0.001 0,0.001l-0.33,0l-10.344,-17.918Zm3.168,11.133l-9.811,0l4.985,-8.359l4.826,8.359Z"
-                                        />
-                                    </svg>
-                                </SvgIcon> ArtStation
+                                <ArtStationIcon/> ArtStation
                             </Button>
                         </div>
                     </div>
@@ -84,7 +71,7 @@ const EducationPage = () => {
                 <div className="image-container">
                     <StaticImage
                         className="w-100 h-100"
-                        src="../../images/blender.jpg"
+                        src="../../images/blender.webp"
                         alt="Cool render"
                         placeholder="blurred"
                         layout="constrained"

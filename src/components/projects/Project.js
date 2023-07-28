@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import Badge from "react-bootstrap/Badge";
-import DescriptionIcon from '@mui/icons-material/Description';
+import GitHubIcon from "../icons/GitHubIcon";
+import DocsIcon from "../icons/DocsIcon";
 
 
 const Project = (props) => {
@@ -39,8 +39,8 @@ const Project = (props) => {
                     <div className="col-4 text-end">
                         {props.docs &&
                             <a href={props.docs} target="_blank" rel="noopener noreferrer"
-                               className="clickable-link me-3">
-                                <DescriptionIcon className="footer-icon"/>
+                               className="clickable-link me-3" style={{fontSize: "larger"}}>
+                                <DocsIcon className="footer-icon"/>
                             </a>
                         }
                         {props.github &&

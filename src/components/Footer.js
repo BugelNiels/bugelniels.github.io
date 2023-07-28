@@ -1,7 +1,7 @@
 import * as React from "react"
-import MailIcon from "@mui/icons-material/Mail";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MailIcon from "./icons/MailIcon";
+import GitHubIcon from "./icons/GitHubIcon";
+import LinkedInIcon from "./icons/LinkedInIcon";
 
 const Footer = () => {
     return (

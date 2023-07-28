@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Project from "../Project";
-import ProjectImage from "../../../images/projects/ccheckmate.png";
+import ProjectImage from "../../../images/projects/ccheckmate.webp";
 
 const CCheckmateProject = () => {
 

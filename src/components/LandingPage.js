@@ -1,8 +1,9 @@
 import React from 'react';
-import GitHubIcon from "@mui/icons-material/GitHub";
 import Button from "react-bootstrap/Button";
-import {Download, LinkedIn} from "@mui/icons-material";
 import {StaticImage} from "gatsby-plugin-image";
+import DownloadIcon from "./icons/DownloadIcon";
+import GitHubIcon from "./icons/GitHubIcon";
+import LinkedInIcon from "./icons/LinkedInIcon";
 
 const LandingPage = () => {
     return (
@@ -23,7 +24,8 @@ const LandingPage = () => {
                                     variant="primary"
                                     href="downloads/niels-bugel-resume.pdf"
                                     target="_blank" rel="noopener noreferrer">
-                                <Download/> Download CV
+
+                                <DownloadIcon/> Download CV
                             </Button>
                         </div>
                         <div className="col-12">
@@ -37,7 +39,7 @@ const LandingPage = () => {
                                     variant="secondary"
                                     href="https://www.linkedin.com/in/nielsbugel"
                                     target="_blank" rel="noopener noreferrer">
-                                <LinkedIn/> LinkedIn
+                                <LinkedInIcon/> LinkedIn
                             </Button>
                         </div>
                     </div>
@@ -47,7 +49,7 @@ const LandingPage = () => {
                 <div className="image-container">
                     <StaticImage
                         className="w-50 h-100"
-                        src="../images/me.jpg"
+                        src="../images/me.webp"
                         alt="Photo"
                         placeholder="blurred"
                         layout="constrained"

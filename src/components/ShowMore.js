@@ -1,7 +1,7 @@
 import React, {useRef, useState} from 'react';
 import Button from "react-bootstrap/Button";
-import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowUpIcon from "./icons/ArrowUpIcon";
+import ArrowDownIcon from "./icons/ArrowDownIcon";
 
 const ShowMoreButton = (props) => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -22,14 +22,14 @@ const ShowMoreButton = (props) => {
             <p>
                 {isExpanded &&
                     <Button onClick={toggleShowMore}>
-                        <ArrowDropUpIcon/>
+                        <ArrowUpIcon/>
                         Show less
                     </Button>
                 }
             </p>
             {!isExpanded &&
                 <Button onClick={toggleShowMore}>
-                    <ArrowDropDownIcon/>
+                    <ArrowDownIcon/>
                     Show more
                 </Button>
             }
