@@ -20,14 +20,12 @@
     "gatsby": "^5.11.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
-    "gatsby-plugin-preact": "^7.11.0",
     "gatsby-plugin-purgecss": "^6.2.1",
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-source-filesystem": "^5.11.0",
-    "preact": "^10.16.0",
-    "preact-render-to-string": "^5.2.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
     "react-scroll": "^1.8.9"
   },
   "devDependencies": {
