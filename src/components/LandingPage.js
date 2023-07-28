@@ -49,7 +49,7 @@ const LandingPage = () => {
                 <div className="image-container">
                     <StaticImage
                         className="w-50 h-100"
-                        src="../images/me.webp"
+                        src="../images/me.jpg"
                         alt="Photo"
                         placeholder="blurred"
                         layout="constrained"
