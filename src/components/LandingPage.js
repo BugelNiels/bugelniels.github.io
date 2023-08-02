@@ -22,7 +22,7 @@ const LandingPage = () => {
                         <div className="col-12 ">
                             <Button className="mb-4"
                                     variant="primary"
-                                    href="downloads/niels-bugel-resume.pdf"
+                                    href="downloads/nielsBugelResume.pdf"
                                     target="_blank" rel="noopener noreferrer">
 
                                 <DownloadIcon/> Download CV

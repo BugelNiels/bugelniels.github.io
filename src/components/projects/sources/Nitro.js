@@ -25,7 +25,8 @@ const NitroProject = () => {
             docs="https://bugelniels.github.io/nitro/">
             <Card.Text>
                 NITRO is a powerful tool for building complex image-processing routines in a non-destructive manner. The
-                project was developed and designed with extensibility in mind, which means that it is easy to define custom nodes,
+                project was developed and designed with extensibility in mind, which means that it is easy to define
+                custom nodes,
                 data types, or even custom GUI widgets.
             </Card.Text>
             <ReadMore>
@@ -42,6 +43,9 @@ const NitroProject = () => {
                     However, a significant number of changes to this library were required in order to get the desired
                     qualities. As such, I created a custom fork containing these numerous modifications. The GUI of
                     NITRO was inspired by Blender’s Shader Editor given its user-friendliness and flexibility.
+                    One of the main reasons for its good extensibility is that the node system is designed using a
+                    combination of the builder pattern and command pattern. This makes it very easy to add new nodes and
+                    data types.
                 </Card.Text>
                 <Card.Text>
                     The project was originally developed for my Master's thesis at the University of

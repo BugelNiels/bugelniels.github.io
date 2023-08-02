@@ -47,29 +47,36 @@ const ExperiencePage = () => {
                 <p>
 
                     <ul>
-                        <li>Designed course material, such as readers, assignments, frameworks, and tutorials.</li>
-                        <li>Gave lectures, tutorials, presentations, and lab sessions.</li>
+                        <li>Designed course material such as readers, assignments, frameworks, and tutorials.</li>
+                        <li>Gave lectures, tutorials, presentations, and lab sessions for groups of up to 150
+                            students.
+                        </li>
                         <li>Created schedules, grading schema and course pages.</li>
-                        <li>Coordinated TAs.</li>
-                        <li>Also did my fair share of grading.</li>
+                        <li>Coordinated courses consisting of over 300 students and managed teams of up to 30 Teaching
+                            Assistants.
+                        </li>
                     </ul>
 
                     For the past three years before I finished my master's, I was the coordinator for
-                    Object-Oriented Programming and Advanced Object-Oriented Programming for a few years. For these
+                    <i> Object-Oriented Programming </i>and<i> Advanced Object-Oriented Programming </i>for a few years.
+                    For these
                     courses, I wrote two separate readers (~80-page booklets containing the majority of the course
                     material) in collaboration with two other TAs, designed and implemented new assignments,
                     introduced tutorials in the form of live-coding sessions, created grading schemes, course
                     schedules, lead meetings and coordinated the TA teams (upwards of 30 TAs at a time).
                 </p>
                 <p>
-                    I have played a major part in numerous improvements of the CS study programme in Groningen. My
-                    involvement as a TA in the courses Advanced Object-Oriented Programming and Advanced Algorithms
-                    & Data Structures caused their course evaluations to go from one of the lowest grades to the
-                    highest grade possible. For the remainder of the courses, I have implemented numerous
+                    I played a major part in numerous improvements of the CS study programme in Groningen. My
+                    involvement as a TA in the courses<i> Advanced Object-Oriented Programming </i>and<i> Advanced
+                    Algorithms & Data Structures </i>caused their course evaluations to go from one of the lowest grades
+                    to the highest grade possible. For the remainder of the courses, I implemented numerous
                     improvements, such as rewriting assignments where necessary to better align with the course
                     objectives, providing well-structured information and materials to the students and TAs, and
-                    enforcing stricter code style standards. These courses have all been consistently rated well with
-                    good grades in the course evaluations.
+                    enforcing stricter code style standards (via e.g. a CI/CD pipeline containing <a
+                    href="https://checkstyle.sourceforge.io/" target="_blank"
+                    rel="noopener noreferrer">CheckStyle</a>).
+                    The courses I was involved in were all consistently rated well with good grades in the course
+                    evaluations.
                 </p>
                 <p>
                     <h5>Bachelor Courses:</h5>
@@ -103,7 +110,8 @@ const ExperiencePage = () => {
                     employer="University of groningen"
                     employerLink="https://www.rug.nl/">
             <p>
-                Coordinator of the Numerus Fixus procedure for Computing Science.
+                Coordinator of the Numerus Fixus procedure for Computing Science. Over 400 students take part in this
+                procedure every year.
             </p>
             <ReadMoreText>
                 <ul>
@@ -128,9 +136,13 @@ const ExperiencePage = () => {
             </p>
             <ReadMoreText>
                 MATIG was built using Express.js, React, MongoDB, and Redis. It was deployed on the university
-                servers using
-                Kubernetes.
-                See the <Link className="education-link"  offset={-70} as={ScrollLink} to="#matig" smooth={true}> MATIG</Link> project.
+                servers using Kubernetes.
+                See the <Link className="education-link" offset={-70} as={ScrollLink} to="#matig"
+                              smooth={true}> MATIG</Link> project.
+                Whereas previously the TAs would have to spend multiple hours a week manually transferring the results
+                between
+                systems, MATIG automated this into something that takes less than a minute. It also provided the
+                coordinating team with an insightful overview of the progress and other convenience features.
             </ReadMoreText>
         </Experience>
         <Experience time="Apr 2021 - Oct 2021"
