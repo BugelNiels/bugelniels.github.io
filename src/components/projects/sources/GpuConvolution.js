@@ -40,6 +40,13 @@ const GpuConvolutionProject = () => {
                     host and device memory for the images does not have to continuously be reallocated.
                     This entire pipeline is explained in the README of the repository.
                 </Card.Text>
+
+                <Card.Text>
+                    During this project, I had a lot of fun coming up with different parallel strategies to squeeze the
+                    most performance out of it.
+                    The combination of all the different parallel paradigms made this project unique from the other
+                    parallel projects I had done before.
+                </Card.Text>
             </ReadMore>
         </Project>
     );
