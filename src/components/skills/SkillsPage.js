@@ -41,6 +41,7 @@ const SkillsPage = () => {
                                 "C++",
                                 "Java",
                                 "Javascript",
+                                "MATLAB",
                                 "Python",
                                 "SQL"
                             ]
@@ -63,6 +64,7 @@ const SkillsPage = () => {
                         {jsonToLines(
                             [
                                 "CUDA",
+                                "GLSL",
                                 "OpenGL",
                                 "Pthreads",
                                 "MPI",
@@ -79,9 +81,10 @@ const SkillsPage = () => {
                                 "CMake",
                                 "JUnit",
                                 "Maven",
-                                "Docker",
+                                "Mockito",
                                 "Kubernetes",
-                                "GitHub Actions"
+                                "Docker",
+                                "CI/CD"
                             ]
                         )}
                     </div>
