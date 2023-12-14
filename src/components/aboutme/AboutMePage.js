@@ -35,7 +35,7 @@ const EducationPage = () => {
                     </p>
                     <p className="text-start">
                         Apart from my work at the university, I really enjoy playing guitar, hiking, 3D rendering, and
-                        reading. I'm heading to New Zealand for 3 months at the end of August; a trip which may been
+                        reading. I have just completed my dream trip to New Zealand; a trip which may been
                         slightly inspired by the Lord of the Rings. It goes without saying that I'm also a big fan of
                         modern-day luxuries such as water and sleep. I like to think that I have convinced quite a few
                         students to sleep more as this seems to be a somewhat problematic area for a lot of CS students
@@ -50,7 +50,7 @@ const EducationPage = () => {
                 <div>
                     <h5 className="pb-3 pt-3 center-aligned-left-lg">Render Enthusiast</h5>
                     <p className="text-start">
-                        I have always had a fascination with VFX and realistic renders, which started when I
+                        I have always had a fascination with VFX and rendering, which started when I
                         first picked up Blender around 10 years ago. Since then, I have been working with
                         Blender and learning quite a few tricks of the trade (although I still have much
                         left to learn). If you are curious, check out my ArtStation below. I periodically try and post
