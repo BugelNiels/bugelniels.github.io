@@ -126,7 +126,7 @@ const ExperiencePage = () => {
             </ReadMoreText>
         </Experience>
         <Experience time="Oct 2020 - Jul 2022"
-                    title="Full Stack Web Developer MATIG"
+                    title="Full Stack Developer MATIG"
                     employer="University of groningen"
                     employerLink="https://www.rug.nl/">
             <p>
