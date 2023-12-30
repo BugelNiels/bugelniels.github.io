@@ -9,11 +9,11 @@ const QtValueSliderProject = () => {
         <ProjectSection
             title="Qt Value Slider"
             languages={[
-                {id: "cpp", name: "C++"}
+                { id: "cpp", name: "C++" }
             ]}
             technologies={[
-                {id: "qt", name: "Qt"},
-                {id: "cmake", name: "CMake"}
+                { id: "qt", name: "Qt" },
+                { id: "cmake", name: "CMake" }
             ]}
             image={ProjectImage}
             github="https://github.com/BugelNiels/qt-value-slider">

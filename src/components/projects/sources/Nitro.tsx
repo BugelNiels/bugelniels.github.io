@@ -10,15 +10,15 @@ const NitroProject = () => {
         <ProjectSection
             title="NITRO"
             languages={[
-                {id: "cpp", name: "C++"}
+                { id: "cpp", name: "C++" }
             ]}
             technologies={[
-                {id: "qt", name: "Qt"},
-                {id: "opengl", name: "OpenGL"},
-                {id: "opencv", name: "OpenCV"},
-                {id: "cmake", name: "CMake"},
-                {id: "docker", name: "Docker"},
-                {id: "bash", name: "Bash"},
+                { id: "qt", name: "Qt" },
+                { id: "opengl", name: "OpenGL" },
+                { id: "opencv", name: "OpenCV" },
+                { id: "cmake", name: "CMake" },
+                { id: "docker", name: "Docker" },
+                { id: "bash", name: "Bash" },
             ]}
             image={ProjectImage}
             github="https://github.com/BugelNiels/nitro"

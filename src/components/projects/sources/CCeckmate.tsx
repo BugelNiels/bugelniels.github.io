@@ -9,10 +9,10 @@ const CCheckmateProject = () => {
         <ProjectSection
             title="CCheckmate"
             languages={[
-                {id: "c", name: "C"}
+                { id: "c", name: "C" }
             ]}
             technologies={[
-                {id: "make", name: "Make"},
+                { id: "make", name: "Make" },
             ]}
             image={ProjectImage}
             github="https://github.com/BugelNiels/ccheckmate">

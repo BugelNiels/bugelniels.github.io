@@ -9,11 +9,11 @@ const PersonalWebsiteProject = () => {
         <ProjectSection
             title="Personal Website"
             languages={[
-                {id: "typescript", name: "TypeScript"}
+                { id: "typescript", name: "TypeScript" }
             ]}
             technologies={[
-                {id: "react", name: "React"},
-                {id: "gatsby", name: "Gatsby"}
+                { id: "react", name: "React" },
+                { id: "gatsby", name: "Gatsby" }
             ]}
             image={ProjectImage}
             github="https://github.com/BugelNiels/bugelniels.github.io">

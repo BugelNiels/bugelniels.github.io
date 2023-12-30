@@ -9,13 +9,13 @@ const QuadricSubdivisionProject = () => {
         <ProjectSection
             title="Quadric Subdivision"
             languages={[
-                {id: "cpp", name: "C++"}
+                { id: "cpp", name: "C++" }
             ]}
             technologies={[
-                {id: "qt", name: "Qt"},
-                {id: "opengl", name: "OpenGL"},
-                {id: "openmp", name: "OpenMP"},
-                {id: "qmake", name: "QMake"},
+                { id: "qt", name: "Qt" },
+                { id: "opengl", name: "OpenGL" },
+                { id: "openmp", name: "OpenMP" },
+                { id: "qmake", name: "QMake" },
             ]}
             image={ProjectImage}>
             <Card.Text>

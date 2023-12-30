@@ -10,14 +10,14 @@ const MatigProject = () => {
         <ProjectSection
             title="MATIG"
             languages={[
-                {id: "javascript", name: "Javascript"}
+                { id: "javascript", name: "Javascript" }
             ]}
             technologies={[
-                {id: "react", name: "React"},
-                {id: "express", name: "ExpressJs"},
-                {id: "mongodb", name: "MongoDB"},
-                {id: "redis", name: "Redis"},
-                {id: "kubernetes", name: "Kubernetes"}
+                { id: "react", name: "React" },
+                { id: "express", name: "ExpressJs" },
+                { id: "mongodb", name: "MongoDB" },
+                { id: "redis", name: "Redis" },
+                { id: "kubernetes", name: "Kubernetes" }
             ]}
             image={ProjectImage}>
             <Card.Text>

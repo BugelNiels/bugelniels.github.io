@@ -10,20 +10,20 @@ const StockMarketProject = () => {
         <ProjectSection
             title="Stock Market Simulation"
             languages={[
-                {id: "java", name: "Java"}
+                { id: "java", name: "Java" }
             ]}
             technologies={[
-                {id: "junit", name: "JUnit"},
-                {id: "mockito", name: "Mockito"},
-                {id: "maven", name: "Maven"},
-                {id: "react", name: "React"},
-                {id: "docker", name: "Docker"}
+                { id: "junit", name: "JUnit" },
+                { id: "mockito", name: "Mockito" },
+                { id: "maven", name: "Maven" },
+                { id: "react", name: "React" },
+                { id: "docker", name: "Docker" }
             ]}
             image={ProjectImage}>
             <Card.Text>
                 The project/assignment(s) I designed for the course&nbsp;
                 <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WBCS001-05" target="_blank"
-                   rel="noopener noreferrer">Advanced Object-Oriented Programming</a>.
+                    rel="noopener noreferrer">Advanced Object-Oriented Programming</a>.
             </Card.Text>
             <ReadMoreText>
                 <Card.Text>

@@ -17,6 +17,17 @@ import { StockMarketProject } from "./sources/StockMarket";
 import { FlapsProject } from "./sources/Flaps";
 import { ShowMoreButton } from "../ShowMore";
 
+
+const projectItems = (items: React.ReactNode[]) => {
+    return items.map(item => {
+        return (
+            <div className="col-12 col-lg-6">
+                {item}
+            </div>
+        );
+    });
+}
+
 const ProjectsPage = () => {
 
     return (
@@ -27,72 +38,33 @@ const ProjectsPage = () => {
                 </div>
             </div>
             <div className="col-lg-6 col-12">
-                <div className="row justify-content-center p-2">
+                <div className="row p-2">
                     <NitroProject />
                 </div>
 
-                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-6">
-                        <GpuConvolutionProject />
-                    </div>
-                    <div className="col-12 col-lg-6">
-                        <GpuSubdivisionProject />
-                    </div>
-                </div>
-
-                <div className="row justify-content-center">
-                    <div id="matig" className="col-12 col-lg-6">
-                        <MatigProject />
-                    </div>
-                    <div className="col-12 col-lg-6">
-                        <ConicSubdivisionProject />
-                    </div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-6">
-                        <StockMarketProject />
-                    </div>
-                    <div className="col-12 col-lg-6">
+                <div className="row">
+                    {projectItems([
+                        <GpuConvolutionProject />,
+                        <GpuSubdivisionProject />,
+                        <MatigProject />,
+                        <ConicSubdivisionProject />,
+                        <StockMarketProject />,
                         <FlapsProject />
-                    </div>
+                    ])}
                 </div>
 
                 <ShowMoreButton>
-
-
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-lg-6">
-                            <QuadricSubdivisionProject />
-                        </div>
-                        <div className="col-12 col-lg-6">
-                            <CpuSubdivisionProject />
-                        </div>
-                    </div>
-
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-lg-6">
-                            <ImprocCProject />
-                        </div>
-                        <div className="col-12 col-lg-6">
-                            <CCheckmateProject />
-                        </div>
-                    </div>
-
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-lg-6">
-                            <JColorDialogProject />
-                        </div>
-                        <div className="col-12 col-lg-6">
-                            <BugElProject />
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-lg-6">
-                            <QtValueSliderProject />
-                        </div>
-                        <div className="col-12 col-lg-6">
+                    <div className="row">
+                        {projectItems([
+                            <QuadricSubdivisionProject />,
+                            <CpuSubdivisionProject />,
+                            <ImprocCProject />,
+                            <CCheckmateProject />,
+                            <JColorDialogProject />,
+                            <BugElProject />,
+                            <QtValueSliderProject />,
                             <PersonalWebsiteProject />
-                        </div>
+                        ])}
                     </div>
                 </ShowMoreButton>
             </div>

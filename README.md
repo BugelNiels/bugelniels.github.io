@@ -4,7 +4,7 @@ This repository contains the source code for my personal website.
 
 [https://www.nielsbugel.dev/](https://www.nielsbugel.dev/)
 
-The website is built using React and Gatsby to create a reasonably light-weight static website.
+The website is built using Typescript, React and Gatsby to create a reasonably light-weight static website.
 If you have any suggestions for my website (or encountered any issues), please let me know and I'll do my best to fix
 them.
 

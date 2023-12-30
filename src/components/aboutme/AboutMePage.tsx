@@ -28,7 +28,7 @@ const AboutMePage = () => {
                         <h5 className="pb-3 pt-3 center-aligned-left-lg">Who am I?</h5>
                         <p className="text-start">
                             I am someone who is active and involved; I always try to spot and implement improvements
-                            wherever possible, which is why I took every opportunity to do this.
+                            wherever possible, which is why I took every opportunity to do this at my university.
                             The TA jobs provided me with an excellent opportunity to learn further beyond
                             the basic course materials. They also helped me to further develop my soft skills, as I have
                             worked in many different teams and done countless of presentations/lectures by this point;

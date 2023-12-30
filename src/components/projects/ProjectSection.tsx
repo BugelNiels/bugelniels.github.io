@@ -5,12 +5,10 @@ import Badge from "react-bootstrap/Badge";
 import GitHubIcon from "../icons/GitHubIcon";
 import DocsIcon from "../icons/DocsIcon";
 
-
 interface Tech {
     id: string;
     name: string;
 }
-
 
 interface ProjectProps {
     title: string;
@@ -20,6 +18,7 @@ interface ProjectProps {
     languages: Tech[];
     technologies: Tech[];
     children?: React.ReactNode;
+    className?: string;
 }
 
 const getLanguageBadge = (languages: Tech[]) => {
@@ -48,7 +47,6 @@ const ProjectSection = (props: ProjectProps) => {
     return (
         <Card className="p-0 mb-4">
             <Card.Header>
-
                 <div className="row justify-content-center">
                     <div className="col-8 text-start">
                         <Card.Title>{props.title}</Card.Title>
@@ -56,20 +54,18 @@ const ProjectSection = (props: ProjectProps) => {
                     <div className="col-4 text-end">
                         {props.docs &&
                             <a href={props.docs} target="_blank" rel="noopener noreferrer"
-                               className="clickable-link me-3" style={{fontSize: "larger"}}>
-                                <DocsIcon className="footer-icon"/>
+                                className="clickable-link me-3" style={{ fontSize: "larger" }}>
+                                <DocsIcon className="footer-icon" />
                             </a>
                         }
                         {props.github &&
                             <a href={props.github} target="_blank" rel="noopener noreferrer"
-                               className="clickable-link me-3">
-                                <GitHubIcon className="footer-icon"/>
+                                className="clickable-link me-3">
+                                <GitHubIcon className="footer-icon" />
                             </a>
                         }
                     </div>
-
                 </div>
-
             </Card.Header>
 
             <Card.Body>
@@ -77,9 +73,9 @@ const ProjectSection = (props: ProjectProps) => {
                     {props.image &&
                         <ListGroup.Item className="text-start">
                             <Card.Img variant="top"
-                                      src={props.image}
-                                      alt={props.title}
-                                      style={{maxHeight: "512px", borderRadius: "20px"}}/>
+                                src={props.image}
+                                alt={props.title}
+                                style={{ maxHeight: "512px", borderRadius: "20px" }} />
                         </ListGroup.Item>}
                     <ListGroup.Item className="text-start">
                         {props.children}

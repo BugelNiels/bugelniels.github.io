@@ -3,8 +3,6 @@ import { ListGroupItem } from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
 import { ReadMoreText } from "../ReadMore";
 import { ExperienceSection } from "./ExperienceSection";
-import { Link as ScrollLink } from "react-scroll";
-import { Link } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const course = (name: string, times: number, special: string, courseCode: string, year: string = "current") => {
@@ -24,14 +22,11 @@ const course = (name: string, times: number, special: string, courseCode: string
                     href={"https://ocasys.rug.nl/" + year + "/catalog/course/" + courseCode} target="_blank"
                     rel="noopener noreferrer">{courseCode}</a>
             </div>
-
         </div>
     </ListGroupItem>
 }
 
 const ExperiencePage = () => {
-
-
 
     return (<>
         <div className="row justify-content-center pb-5 pt-5 section-title">

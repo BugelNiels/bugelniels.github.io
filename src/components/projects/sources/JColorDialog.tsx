@@ -9,10 +9,10 @@ const JColorDialogProject = () => {
         <ProjectSection
             title="JColorDialog"
             languages={[
-                {id: "java", name: "Java"}
+                { id: "java", name: "Java" }
             ]}
             technologies={[
-                {id: "maven", name: "Maven"}
+                { id: "maven", name: "Maven" }
             ]}
             image={ProjectImage}
             github="https://github.com/BugelNiels/JColorDialog">
