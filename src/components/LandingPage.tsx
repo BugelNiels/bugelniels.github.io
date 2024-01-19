@@ -15,8 +15,8 @@ const LandingPage = () => {
                         <p className="sub-text">Developer by day, asleep by night</p>
                     </div>
                     <p style={{ fontSize: "larger" }}>
-                        Hi there! I'm a software developer with a passion for Computer Graphics, Image-Processing,
-                        High-Performance Computing and drinking water.
+                        Hi there! I'm a software developer with a passion for high-performance computing, computer graphics, visualization,
+                        and drinking water.
                     </p>
                     <div className="justify-content-center mt-3">
                         <div className="col-12 ">
@@ -35,7 +35,7 @@ const LandingPage = () => {
                                 target="_blank" rel="noopener noreferrer">
                                 <GitHubIcon /> GitHub
                             </Button>
-                            <Button className="mb-4"
+                            <Button className="mb-4 me-4"
                                 variant="secondary"
                                 href="https://www.linkedin.com/in/nielsbugel"
                                 target="_blank" rel="noopener noreferrer">

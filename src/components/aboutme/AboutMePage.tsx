@@ -42,6 +42,9 @@ const AboutMePage = () => {
                             students to sleep more as this seems to be a somewhat problematic area for a lot of CS students
                             :)
                         </p>
+                        <p className="text-start">
+                            Finally, I don't want to sound as if I am blowing my own trumpet with this website and all the "achievements" on here, but you gotta get a job somehow you know?
+                        </p>
                     </div>
                 </div>
 

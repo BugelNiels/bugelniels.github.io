@@ -112,6 +112,14 @@ body, body * {
     background-color: #d7bc39;
 }
 
+.typescript {
+    background-color: #2f74c0;
+}
+
+.python {
+    background-color: #f7c400;
+}
+
 .navbar {
     margin: 0 auto;
     text-align: center;
