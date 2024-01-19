@@ -16,6 +16,7 @@ import { PersonalWebsiteProject } from "./sources/PersonalWebsite";
 import { StockMarketProject } from "./sources/StockMarket";
 import { FlapsProject } from "./sources/Flaps";
 import { ShowMoreButton } from "../ShowMore";
+import { CepvProject } from './sources/Cepv';
 
 
 const projectItems = (items: React.ReactNode[]) => {
@@ -40,6 +41,9 @@ const ProjectsPage = () => {
             <div className="col-lg-6 col-12">
                 <div className="row p-2">
                     <NitroProject />
+                </div>
+                <div className="row p-2">
+                    <CepvProject />
                 </div>
 
                 <div className="row">
