@@ -40,11 +40,9 @@ const SkillsPage = () => {
                                     "C",
                                     "C++",
                                     "Java",
-                                    "Javascript",
                                     "TypeScript",
-                                    "MATLAB",
+                                    "Javascript",
                                     "Python",
-                                    "SQL"
                                 ]
                             )}
                         </div>
@@ -65,12 +63,11 @@ const SkillsPage = () => {
                             {jsonToLines(
                                 [
                                     "CUDA",
-                                    "GLSL",
                                     "OpenGL",
                                     "Pthreads",
-                                    "MPI",
                                     "Node.js",
                                     "React",
+                                    "Flask",
                                     "Qt",
                                 ]
                             )}
@@ -83,7 +80,6 @@ const SkillsPage = () => {
                                     "JUnit",
                                     "Maven",
                                     "Mockito",
-                                    "Kubernetes",
                                     "Docker",
                                     "CI/CD"
                                 ]
@@ -113,6 +109,24 @@ const SkillsPage = () => {
                             ]
                         )}
                     </div>
+                </div>
+            </div>
+            <div className="row justify-content-center p-5 section-title">
+                <hr />
+                <div className="col-6" style={{ fontSize: "14px" }}>
+                    <p>
+                        Slight disclaimer:
+                    </p>
+                    <p>
+                        <i>
+                            I do not want to claim to be a full-on expert on all of these, as I am sure you can think of questions I don't know the answer to.
+                            However, I have done several projects involving each of these technologies, so I would be comfortable working with them in the future.
+                        </i>
+
+                    </p>
+                    <p>
+                        If it's not on this list, I may still have worked with it, but it has probably been a while :)
+                    </p>
                 </div>
             </div>
         </>
