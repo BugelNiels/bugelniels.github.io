@@ -11,7 +11,7 @@ const PersonalNavBar = () => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
-    
+
     const collapseNav = () => {
         if (!isNavCollapsed) {
             setIsNavCollapsed(true);
@@ -27,17 +27,14 @@ const PersonalNavBar = () => {
                     <Nav.Link onClick={collapseNav} as={ScrollLink} to="home" smooth={true}>
                         Home
                     </Nav.Link>
-                    <Nav.Link onClick={collapseNav} as={ScrollLink} to="projects" smooth={true}>
-                        Projects
-                    </Nav.Link>
                     <Nav.Link onClick={collapseNav} as={ScrollLink} to="experience" smooth={true}>
                         Experience
                     </Nav.Link>
                     <Nav.Link onClick={collapseNav} as={ScrollLink} to="education" smooth={true}>
                         Education
                     </Nav.Link>
-                    <Nav.Link onClick={collapseNav} as={ScrollLink} to="skills" smooth={true}>
-                        Skills
+                    <Nav.Link onClick={collapseNav} as={ScrollLink} to="projects" smooth={true}>
+                        Projects
                     </Nav.Link>
                     <Nav.Link onClick={collapseNav} as={ScrollLink} to="aboutme" smooth={true}>
                         About Me

@@ -3,7 +3,9 @@ import { ListGroupItem } from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
 import { ReadMoreText } from "../ReadMore";
 import { ExperienceSection } from "./ExperienceSection";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+import CernLogo from "../../images/companies/cern.webp";
+import RugLogo from "../../images/companies/rug.webp";
+import DataqueueLogo from "../../images/companies/dataqueue.webp";
 
 const course = (name: string, times: number, special: string, courseCode: string, year: string = "current") => {
     return <ListGroupItem>
@@ -35,12 +37,43 @@ const ExperiencePage = () => {
             </div>
         </div>
         <ExperienceSection
+            logo={CernLogo}
+            time="May 2024 - Current"
+            title="Computing Engineer: Data Storage"
+            employer="CERN"
+            employerLink="https://home.cern/"
+            employmentType="Full-time"
+            location="Meyrin, Switzerland">
+
+            Software developer in the CTA team.
+        </ExperienceSection>
+        <ExperienceSection
+            logo={DataqueueLogo}
+            time="Feb 2024 - Apr 2024"
+            title="Backend Software Engineer"
+            employer="Dataqueue"
+            employerLink="https://www.dataqueue.ai/"
+            employmentType="Contract (32-40 hours per week)"
+            location="Groningen, Netherlands">
+            <p>
+                Implemented, tested and deployed the backend infrastructure for a real-time call analytics software platform.
+            </p>
+            <ReadMoreText>
+                This job was a temporary position/contract while I was looking for a long term job.
+                Implemented several microservices in Python and Typescript. They were deployed to a Google Kubernetes Engine cluster using Kubernetes/Helm.
+                Built multiple custom Jenkins pipelines for building images, deploying them, and performing integration/system tests.
+            </ReadMoreText>
+        </ExperienceSection>
+        <ExperienceSection
+            logo={RugLogo}
             time="Feb 2019 - Jul 2023"
             title="Teaching Assistant"
-            employer="University of groningen"
-            employerLink="https://www.rug.nl/">
+            employer="University of Groningen"
+            employerLink="https://www.rug.nl/"
+            employmentType="Part-time"
+            location="Groningen, Netherlands">
             <p>
-                Teaching Assistant (TA) for a large number of courses within the Computing Science programme.
+                Teaching Assistant (TA) for a number of courses within the Computing Science programme.
             </p>
             <ReadMoreText>
                 <p>
@@ -55,27 +88,6 @@ const ExperiencePage = () => {
                             Assistants.
                         </li>
                     </ul>
-
-                    For the past three years before I finished my master's, I was the coordinator for
-                    <i> Object-Oriented Programming </i>and<i> Advanced Object-Oriented Programming </i>for a few years.
-                    For these
-                    courses, I wrote two separate readers (~80-page booklets containing the majority of the course
-                    material) in collaboration with two other TAs, designed and implemented new assignments,
-                    introduced tutorials in the form of live-coding sessions, created grading schemes, course
-                    schedules, lead meetings and coordinated the TA teams (upwards of 30 TAs at a time).
-                </p>
-                <p>
-                    I played a major part in numerous improvements of the CS study programme in Groningen. My
-                    involvement as a TA in the courses<i> Advanced Object-Oriented Programming </i>and<i> Advanced
-                        Algorithms & Data Structures </i>caused their course evaluations to go from one of the lowest grades
-                    to the highest grade possible. For the remainder of the courses, I implemented numerous
-                    improvements, such as rewriting assignments where necessary to better align with the course
-                    objectives, providing well-structured information and materials to the students and TAs, and
-                    enforcing stricter code style standards (via e.g. a CI/CD pipeline containing <a
-                        href="https://checkstyle.sourceforge.io/" target="_blank"
-                        rel="noopener noreferrer">CheckStyle</a>).
-                    The courses I was involved in were all consistently rated well with good grades in the course
-                    evaluations.
                 </p>
                 <p>
                     <h5>Bachelor Courses:</h5>
@@ -99,19 +111,24 @@ const ExperiencePage = () => {
                         {course("Advanced Parallel Programming", 1, "Coordinator", "WMCS020-05", "2022-2023")}
                     </ListGroup>
                 </p>
+                <p>
+                    <h5>Student Mentor (2019/2020</h5>
+                </p>
             </ReadMoreText>
 
 
         </ExperienceSection>
 
         <ExperienceSection
+            logo={RugLogo}
             time="Oct 2019 - Jul 2023"
             title="Numerus Fixus Coordinator CS"
-            employer="University of groningen"
-            employerLink="https://www.rug.nl/">
+            employer="University of Groningen"
+            employerLink="https://www.rug.nl/"
+            employmentType="Part-time"
+            location="Groningen, Netherlands">
             <p>
-                Coordinator of the Numerus Fixus procedure for Computing Science. Over 400 students take part in this
-                procedure every year.
+                Coordinator of the Numerus Fixus procedure for Computing Science.
             </p>
             <ReadMoreText>
                 <ul>
@@ -119,52 +136,37 @@ const ExperiencePage = () => {
                     <li>Organised an on-site training day and an on-site selection test.</li>
                     <li>Gave webinar presentations.</li>
                     <li>Coordinated a team of TAs during the evaluation process.</li>
+                    <li>Introduced numerous ways of streamlining and automating the Numerus Fixus process.</li>
                 </ul>
-                I introduced numerous ways of streamlining and automating the Numerus Fixus process, with one of
-                the main contributions being MATIG. Before the Numerus Fixus was introduced in 2020, this process
-                was called Matching.
+                Over 400 students take part in this procedure for the years I was coordinator.
+                Before the Numerus Fixus was introduced in 2020, this process was called Matching.
             </ReadMoreText>
         </ExperienceSection>
         <ExperienceSection
+            logo={RugLogo}
             time="Oct 2020 - Jul 2022"
-            title="Full Stack Developer MATIG"
-            employer="University of groningen"
-            employerLink="https://www.rug.nl/">
+            title="Full Stack Developer"
+            employer="University of Groningen"
+            employerLink="https://www.rug.nl/"
+            employmentType="Part-time"
+            location="Groningen, Netherlands">
             <p>
-                Designed, built, and maintained MATIG: a system that simplifies the organisation and improves
-                the efficiency of the matching procedure for several studies at the Faculty of Science and
-                Engineering.
+                A number of positions involving web development.
             </p>
             <ReadMoreText>
-                MATIG was built using Express.js, React, MongoDB, and Redis. It was deployed on the university
-                servers using Kubernetes.
-                See the <AnchorLink className="education-link" to="#matig"> MATIG</AnchorLink> project.
-                Whereas previously the TAs would have to spend multiple hours a week manually transferring the results
-                between
-                systems, MATIG automated this into something that takes less than a minute. It also provided the
-                coordinating team with an insightful overview of the progress and other convenience features.
+                <ul>
+                    <li>
+                        Designed, built, and maintained MATIG: a system that simplifies the organisation and improves
+                        the efficiency of the matching procedure for several studies at the Faculty of Science and
+                        Engineering.
+                    </li>
+                    <li>
+                        Laid the groundwork for a plagiarism scanning and reporting feature in the university's online
+                        grading system <a className="education-link" href="https://themis.housing.rug.nl/" target="_blank"
+                            rel="noopener noreferrer">Themis</a>.
+                    </li>
+                </ul>
             </ReadMoreText>
-        </ExperienceSection>
-        <ExperienceSection
-            time="Apr 2021 - Oct 2021"
-            title="Web Developer Themis"
-            employer="University of groningen"
-            employerLink="https://www.rug.nl/">
-            <p>
-                Laid the groundwork for a plagiarism scanning and reporting feature in the university's online
-                grading system <a className="education-link" href="https://themis.housing.rug.nl/" target="_blank"
-                    rel="noopener noreferrer">Themis</a>.
-            </p>
-        </ExperienceSection>
-        <ExperienceSection
-            time="Aug 2019 - Jan 2020"
-            title="Student Mentor"
-            employer="University of groningen"
-            employerLink="https://www.rug.nl/">
-            <p>
-                Mentored a group of first-year Computing Science Bachelor students to provide
-                guidance w.r.t. studying and university life.
-            </p>
         </ExperienceSection>
     </>);
 };

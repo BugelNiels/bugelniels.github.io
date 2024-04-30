@@ -12,7 +12,7 @@ const AboutMePage = () => {
                 </div>
             </div>
             <div className="row justify-content-center mb-5 pt-5 pb-5">
-                <div className="col-12 col-lg-3 ">
+                <div className="col-12 col-lg-4 ">
                     <div className="image-container">
                         <StaticImage
                             className="w-100 h-100"
@@ -23,7 +23,7 @@ const AboutMePage = () => {
                         />
                     </div>
                 </div>
-                <div className="col-12 col-lg-3 align-items-center d-flex">
+                <div className="col-12 col-lg-4 align-items-center d-flex">
                     <div>
                         <h5 className="pb-3 pt-3 center-aligned-left-lg">Who am I?</h5>
                         <p className="text-start">
@@ -50,7 +50,7 @@ const AboutMePage = () => {
 
             </div>
             <div className="row justify-content-center mt-5 mb-5 pt-5 pb-5">
-                <div className="col-12 col-lg-3 align-items-center d-flex order-2 order-lg-1">
+                <div className="col-12 col-lg-4 align-items-center d-flex order-2 order-lg-1">
                     <div>
                         <h5 className="pb-3 pt-3 center-aligned-left-lg">Render Enthusiast</h5>
                         <p className="text-start">
@@ -72,7 +72,7 @@ const AboutMePage = () => {
                     </div>
                 </div>
 
-                <div className="col-12 col-lg-3 text-start align-items-center d-flex order-1 order-lg-2">
+                <div className="col-12 col-lg-4 text-start align-items-center d-flex order-1 order-lg-2">
                     <div className="image-container">
                         <StaticImage
                             className="w-100 h-100"

@@ -21,8 +21,8 @@ body, body * {
 }
 
 .secondary-comp {
-    background-color: #f0f0f0;
-    border: 1px solid #dedede;
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(238, 239, 240);
 }
 
 .sub-text {
