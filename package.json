@@ -17,11 +17,6 @@
     "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/bugelniels/bugelniels.github.io.git"
   },
   "dependencies": {
-    "@types/jest": "^29.5.11",
-    "@types/node": "^20.10.5",
-    "@types/react": "^18.2.46",
-    "@types/react-dom": "^18.2.18",
-    "@types/react-scroll": "^1.8.10",
     "bootstrap": "^5.3.1",
     "gatsby": "^5.11.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
@@ -37,6 +32,11 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-scroll": "^1.8.10"
   }
 }

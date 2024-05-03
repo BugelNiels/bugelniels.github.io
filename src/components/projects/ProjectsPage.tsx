@@ -38,20 +38,16 @@ const ProjectsPage = () => {
                     <h1>Projects</h1>
                 </div>
             </div>
-            <div className="col-lg-6 col-12">
-                <div className="row p-2">
-                    <NitroProject />
-                </div>
-                <div className="row p-2">
-                    <CepvProject />
-                </div>
-
+            <div className="col-lg-8 col-12">
                 <div className="row">
                     {projectItems([
+
+                        <NitroProject />,
+                        <ConicSubdivisionProject />,
                         <GpuConvolutionProject />,
                         <GpuSubdivisionProject />,
+                        <CepvProject />,
                         <MatigProject />,
-                        <ConicSubdivisionProject />,
                         <StockMarketProject />,
                         <FlapsProject />
                     ])}

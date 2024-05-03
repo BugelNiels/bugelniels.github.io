@@ -3,6 +3,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import { ListGroupItem } from "react-bootstrap";
 import { EducationSection } from "./EducationSection";
 import { ReadMoreText } from "../ReadMore";
+import RugLogo from "../../images/companies/rug.webp";
 
 
 const EducationPage = () => {
@@ -15,6 +16,7 @@ const EducationPage = () => {
             </div>
 
             <EducationSection
+                logo={RugLogo}
                 time="Sep 2020 - Jul 2023"
                 name="MSc. in Computing Science"
                 subName="Data Science & Systems Complexity"
@@ -51,6 +53,7 @@ const EducationPage = () => {
             </EducationSection>
 
             <EducationSection
+                logo={RugLogo}
                 time="Sep 2017 - Jul 2020"
                 name="BSc. in Computing Science"
                 institution="University of groningen"
