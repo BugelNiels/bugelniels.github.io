@@ -28,22 +28,17 @@ const AboutMePage = () => {
                         <h5 className="pb-3 pt-3 center-aligned-left-lg">Who am I?</h5>
                         <p className="text-start">
                             I am someone who is active and involved; I always try to spot and implement improvements
-                            wherever possible, which is why I took every opportunity to do this at my university.
+                            wherever possible, which is why I took every opportunity to do this at the university I studied at.
                             The TA jobs provided me with an excellent opportunity to learn further beyond
                             the basic course materials. They also helped me to further develop my soft skills, as I have
                             worked in many different teams and done countless of presentations/lectures by this point;
                             something I absolutely loved doing!
                         </p>
                         <p className="text-start">
-                            Apart from my work at the university, I really enjoy playing guitar, hiking, 3D rendering, and
-                            reading. I have just completed my dream trip to New Zealand; a trip which may been
-                            slightly inspired by the Lord of the Rings. It goes without saying that I'm also a big fan of
-                            modern-day luxuries such as water and sleep. I like to think that I have convinced quite a few
-                            students to sleep more as this seems to be a somewhat problematic area for a lot of CS students
-                            :)
-                        </p>
-                        <p className="text-start">
-                            Finally, I don't want to sound as if I am blowing my own trumpet with this website and all the "achievements" on here, but you gotta get a job somehow you know?
+                            In my spare time, I really enjoy playing guitar, hiking, 3D rendering, and
+                            reading. I (somewhat) recently completed my dream trip to New Zealand; a trip which may been
+                            slightly inspired by the Lord of the Rings. Can definitely recommend it, it's an amazingly beautiful country.
+                            It goes without saying that I'm also a big fan of modern-day luxuries such as water and sleep.
                         </p>
                     </div>
                 </div>
@@ -54,11 +49,11 @@ const AboutMePage = () => {
                     <div>
                         <h5 className="pb-3 pt-3 center-aligned-left-lg">Render Enthusiast</h5>
                         <p className="text-start">
-                            I have always had a fascination with VFX and rendering, which started when I
+                            I have always had a fascination with visual effects and rendering, which started when I
                             first picked up Blender around 10 years ago. Since then, I have been working with
                             Blender and learning quite a few tricks of the trade (although I still have much
                             left to learn). If you are curious, check out my ArtStation below. I periodically try and post
-                            some renders there.
+                            some renders there (though I don't have as much time for it these days as I used to).
                         </p>
                         <div className="row center-aligned-left-lg p-1">
                             <div className="col-12">

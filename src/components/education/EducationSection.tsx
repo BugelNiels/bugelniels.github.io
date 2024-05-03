@@ -9,17 +9,15 @@ interface EducationProps {
     institution: string;
     GPA: string;
     children?: React.ReactNode;
-
 }
 
 const EducationSection = (props: EducationProps) => {
     return (
         <div className="row justify-content-center pt-5 pb-5">
-
             <div className="col-2 col-lg-2 mt-2 sub-text align-self-start">
                 <img src={props.logo} alt="Logo" width="64" height="64" style={{ borderRadius: "10px", marginLeft: "40px" }} />
             </div>
-            <div className="col-12 col-lg-5 text-start">
+            <div className="col-10 col-lg-5 text-start">
                 <div className="row">
                     <div className="col-12 text-start">
                         <h4 className="m-0 p-0">
