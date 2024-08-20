@@ -27,12 +27,12 @@ const AboutMePage = () => {
                     <div>
                         <h5 className="pb-3 pt-3 center-aligned-left-lg">Who am I?</h5>
                         <p className="text-start">
-                            I am someone who is active and involved; I always try to spot and implement improvements
-                            wherever possible, which is why I took every opportunity to do this at the university I studied at.
-                            The TA jobs provided me with an excellent opportunity to learn further beyond
-                            the basic course materials. They also helped me to further develop my soft skills, as I have
-                            worked in many different teams and done countless of presentations/lectures by this point;
-                            something I absolutely loved doing!
+                            I am a computing scientist, book enjoyer, and experienced Google Search user.
+                            As far as CS is concerned, my interests lie primarily in the fields of High-Performance Computing, Computer Graphics, and Image Processing.
+                            Mainly I work with C++, but I have done projects in numerous languages and with various frameworks.
+                            Just like I enjoy a clean and organised house (up to a reasonable limit of course), I also like clean and organised software.
+                            As a result, I always try and spend some effort refactoring and cleaning up projects that I actively work on.
+                            Clean code bases are way more maintainable, easier to understand and generally a lot more fun to work with.
                         </p>
                         <p className="text-start">
                             In my spare time, I really enjoy playing guitar, hiking, 3D rendering, and
@@ -47,7 +47,6 @@ const AboutMePage = () => {
             <div className="row justify-content-center mt-5 mb-5 pt-5 pb-5">
                 <div className="col-12 col-lg-4 align-items-center d-flex order-2 order-lg-1">
                     <div>
-                        <h5 className="pb-3 pt-3 center-aligned-left-lg">Render Enthusiast</h5>
                         <p className="text-start">
                             I have always had a fascination with visual effects and rendering, which started when I
                             first picked up Blender around 10 years ago. Since then, I have been working with

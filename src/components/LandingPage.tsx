@@ -15,7 +15,7 @@ const LandingPage = () => {
                         <p className="sub-text">Developer by day, asleep by night</p>
                     </div>
                     <p style={{ fontSize: "larger" }}>
-                        Hi there! I'm a software developer with a passion for high-performance computing, computer graphics, visualization,
+                        Hi there! I'm a software developer with a passion for high-performance computing, computer graphics, cleaning up software projects,
                         and drinking water.
                     </p>
                     <div className="justify-content-center mt-3">
@@ -45,11 +45,11 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-lg-3 order-1 order-lg-2">
+            <div className="col-6 col-lg-3 order-1 order-lg-2">
                 <div className="image-container">
                     <StaticImage
-                        className="w-50 h-100"
-                        src="../images/me.webp"
+                        className="w-75 h-100"
+                        src="../images/me2.webp"
                         alt="Photo"
                         placeholder="blurred"
                         layout="constrained"

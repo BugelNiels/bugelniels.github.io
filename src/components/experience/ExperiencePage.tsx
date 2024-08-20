@@ -45,7 +45,7 @@ const ExperiencePage = () => {
             employmentType="Full-time"
             location="Meyrin, Switzerland">
 
-            Software developer in the CTA team.
+            C++ software engineer and operations support for the <a href="https://cta.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Tape Archive</a> team.
         </ExperienceSection>
         <ExperienceSection
             logo={DataqueueLogo}
@@ -60,7 +60,7 @@ const ExperiencePage = () => {
             </p>
             <ReadMoreText>
                 This job was a temporary position/contract while I was looking for a long term job.
-                Implemented several microservices in Python and Typescript. They were deployed to a Google Kubernetes Engine cluster using Kubernetes/Helm.
+                Implemented several microservices in Python and Typescript (Node.js). They were deployed to a Google Kubernetes Engine cluster using Kubernetes/Helm.
                 Built multiple custom Jenkins pipelines for building images, deploying them, and performing integration/system tests.
             </ReadMoreText>
         </ExperienceSection>
