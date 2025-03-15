@@ -16,8 +16,7 @@ const GpuConvolutionProject = () => {
                 { id: "cuda", name: "CUDA" },
                 { id: "mpi", name: "MPI" },
                 { id: "pthreads", name: "pthreads" },
-                { id: "make", name: "Make" },
-                { id: "bash", name: "Bash" },
+                { id: "make", name: "Make" }
             ]}
             image={ProjectImage}
             github="https://github.com/BugelNiels/distributed-gpu-convolution">

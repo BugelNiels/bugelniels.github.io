@@ -8,7 +8,7 @@ const ConicSubdivisionProject = () => {
 
     return (
         <ProjectSection
-            title="Conic Curve Subdivision"
+            title="CONIS"
             languages={[
                 { id: "cpp", name: "C++" }
             ]}
@@ -18,16 +18,13 @@ const ConicSubdivisionProject = () => {
                 { id: "openmp", name: "OpenMP" },
                 { id: "cmake", name: "CMake" },
             ]}
-            image={ProjectImage}>
+            image={ProjectImage}
+            github="https://github.com/BugelNiels/conic-subdivision">
             <Card.Text>
                 A tool developed for manipulating and subdividing curves using a newly developed conic subdivision method.
-                Its main purpose is to quickly test and prototype various different approaches.
+                Implements the method detailed in the paper: "A point-normal interpolatory subdivision scheme preserving conics", Computer Aided Geometric Design, Vol. 111, 2024. DOI: <a className="education-link" href="https://doi.org/10.1016/j.cagd.2024.102347" target="_blank"
+                            rel="noopener noreferrer">10.1016/j.cagd.2024.102347</a>
             </Card.Text>
-            <ReadMoreText>
-                <Card.Text>
-                    The remaining details are classified for now :-)
-                </Card.Text>
-            </ReadMoreText>
         </ProjectSection>
     );
 };

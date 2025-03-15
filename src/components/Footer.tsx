@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <div className="row justify-content-center pt-4 mb-0">
                 <p>
-                    &copy; 2023 Niels Bugel. All rights reserved.
+                    &copy; 2025 Niels Bugel. All rights reserved.
                 </p>
             </div>
         </div>
