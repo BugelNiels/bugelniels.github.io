@@ -36,9 +36,6 @@ const PersonalNavBar = () => {
                     <Nav.Link onClick={collapseNav} as={ScrollLink} to="projects" smooth={true}>
                         Projects
                     </Nav.Link>
-                    <Nav.Link onClick={collapseNav} as={ScrollLink} to="aboutme" smooth={true}>
-                        About Me
-                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             <Navbar.Brand className="ms-auto">

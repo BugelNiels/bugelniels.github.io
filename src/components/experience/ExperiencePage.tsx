@@ -44,8 +44,7 @@ const ExperiencePage = () => {
             employerLink="https://home.cern/"
             employmentType="Full-time"
             location="Meyrin, Switzerland">
-
-            C++ software engineer and operations support for the <a href="https://cta.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Tape Archive</a> team.
+            C++ software engineer, CI developer, and operations support in the <a href="https://cta.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Tape Archive</a> team.
         </ExperienceSection>
         <ExperienceSection
             logo={DataqueueLogo}

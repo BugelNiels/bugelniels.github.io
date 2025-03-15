@@ -36,26 +36,28 @@ const ProjectsPage = () => {
             <div className="row justify-content-center p-5 section-title">
                 <div className="col-6">
                     <h1>Projects</h1>
+                    Below you can find some of my personal projects. Sadly, with a full-time job I don't much time to work on personal projects so you won't see much activity on my GitHub account.
+                    In case you are curious about what I am working on these days, feel free to have a look on my <a className="education-link" href="https://gitlab.cern.ch/nbugel" target="_blank" rel="noopener noreferrer">CERN GitLab account</a> instead.
                 </div>
             </div>
+
             <div className="col-lg-8 col-12">
                 <div className="row">
                     {projectItems([
-
                         <NitroProject />,
                         <ConicSubdivisionProject />,
                         <GpuConvolutionProject />,
-                        <GpuSubdivisionProject />,
-                        <CepvProject />,
-                        <MatigProject />,
-                        <StockMarketProject />,
-                        <FlapsProject />
+                        <GpuSubdivisionProject />
                     ])}
                 </div>
 
                 <ShowMoreButton>
                     <div className="row">
-                        {projectItems([
+                        {projectItems([,
+                            <CepvProject />,
+                            <MatigProject />,
+                            <StockMarketProject />,
+                            <FlapsProject />,
                             <QuadricSubdivisionProject />,
                             <CpuSubdivisionProject />,
                             <ImprocCProject />,
