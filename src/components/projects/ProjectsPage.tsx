@@ -54,9 +54,9 @@ const ProjectsPage = () => {
                 <ShowMoreButton>
                     <div className="row">
                         {projectItems([,
+                            <StockMarketProject />,
                             <CepvProject />,
                             <MatigProject />,
-                            <StockMarketProject />,
                             <FlapsProject />,
                             <QuadricSubdivisionProject />,
                             <CpuSubdivisionProject />,
