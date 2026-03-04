@@ -15,9 +15,7 @@ const LandingPage = () => {
                         <p className="sub-text">Developer by day, asleep by night</p>
                     </div>
                     <p style={{ fontSize: "larger" }}>
-                        Hi there! I am a software developer passionate about software design, automation, computer graphics, and drinking water.
-                        Currently, I am working at CERN as a software engineer in the CTA team.
-                        Most of all, I enjoy learning new things, sharing knowledge, and cleaning things up (believe it or not).
+                        Hi there! I am a software developer with a passion for high-performance computing, distributed systems, software architecture and drinking water. I like writing documentation and am a strong believer in simplicity, testing and automation. I also enjoy learning new things, sharing knowledge, and cleaning things up (believe it or not).
                     </p>
                     <div className="justify-content-center mt-3">
                         <div className="col-12 ">
